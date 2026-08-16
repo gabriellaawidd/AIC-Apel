@@ -1,64 +1,64 @@
 # Cold Chain AI — Backend (M1 · M2 · M3)
 
-Backend pendukung keputusan pengiriman komoditas mudah rusak di Indonesia (Smart Logistics).
-Menjawab pertanyaan **"apakah barang masih layak jual saat tiba?"** — bukan sekadar ETA —
-dengan menyatukan rute + cuaca (M1), model pembusukan (M2), dan optimizer biaya/trade-off (M3).
+Decision-support backend for shipping perishable goods across Indonesia (Smart Logistics).
+It answers **"will the cargo still be sellable on arrival?"** — not just ETA — by combining
+routing + weather (M1), a food-spoilage model (M2), and a cost/trade-off optimizer (M3).
 
-Repo ini berisi **tiga model backend + kontrak antarmodul**. UI/agent dibangun terpisah
-(oleh CATH) di atas antarmuka `pipeline.run_pipeline()`.
+This repo contains the **three backend models + the shared contract**. The UI/agent is built
+separately (by CATH) on top of the `pipeline.run_pipeline()` interface.
 
-> **Status:** modul di repo ini adalah hasil integrasi yang sudah **diverifikasi jalan
-> end-to-end**, tetapi **belum di-review pemilik masing-masing modul** (GAB, RIO, DAVIN).
-> Perlakukan sebagai baseline yang stabil untuk mulai membangun UI, bukan versi final.
-> Detail per modul & keputusan yang masih menggantung ada di folder `reports/` proyek.
+> **Status:** the modules here are an integration that has been **verified to run end-to-end**,
+> but they have **not yet been reviewed by each module's owner** (GAB, RIO, DAVIN). Treat this
+> as a stable baseline to start building the UI on, not a final version. Per-module details and
+> open decisions live in the project's `reports/` folder.
 
 ---
 
-## Arsitektur
+## Architecture
 
 ```
-TripRequest (input pengguna)
+TripRequest (user input)
       │
       ▼
-  M1  RIO   ── routing.py       → 3–5 RouteCandidate (tol & non-tol) + pita ETA + toll_segments
-            └─ temp_profile.py  → TempProfile per rute (reefer setpoint / ambien Open-Meteo)
+  M1  RIO   ── routing.py       → 3–5 RouteCandidate (toll & non-toll) + ETA band + toll_segments
+            └─ temp_profile.py  → TempProfile per route (reefer setpoint / ambient Open-Meteo)
       │
       ▼
-  M2  GAB   ── quality.py       → QualityResult (% fresh, risiko, layak jual)
-            └─ engine.py, models.py   (RRS square-root + Arrhenius per mekanisme)
+  M2  GAB   ── quality.py       → QualityResult (% fresh, spoilage risk, sellable)
+            └─ engine.py, models.py   (RRS square-root + Arrhenius, per spoilage mechanism)
       │
       ▼
-  M3  DAVIN ── cost.py          → CostResult (tol BPJT + BBM)
-            ├─ optimizer.py     → RankedResult (Pareto + skor preferensi + alert deadline)
-            └─ toll_table.py    → lookup tarif (data/tarif_tol_jawa.csv, 858 ruas Jawa)
+  M3  DAVIN ── cost.py          → CostResult (BPJT toll + fuel)
+            ├─ optimizer.py     → RankedResult (Pareto + preference score + deadline alert)
+            └─ toll_table.py    → tariff lookup (data/tarif_tol_jawa.csv, 858 Java segments)
       │
       ▼
   RankedResult  →  UI / agent (CATH)
 ```
 
-`contracts.py` (owner: CATH) adalah **antarmuka beku** — semua modul menempel ke sini.
-Pipeline deterministik: urutan ditetapkan kode (rute → suhu → spoilage → biaya → ranking),
-bukan oleh LLM.
+`contracts.py` (owner: CATH) is the **frozen interface** — every module plugs into it.
+The pipeline is deterministic: order is fixed in code (route → temperature → spoilage → cost →
+ranking), not decided by an LLM.
 
-## Pemetaan file ke pemilik
+## File-to-owner map
 
-| Modul | File | Pemilik |
+| Module | Files | Owner |
 |---|---|---|
-| Kontrak | `contracts.py` | CATH |
-| M1 rute & ETA | `routing.py`, `temp_profile.py` | RIO |
+| Contract | `contracts.py` | CATH |
+| M1 routing & ETA | `routing.py`, `temp_profile.py` | RIO |
 | M2 spoilage | `quality.py`, `engine.py`, `models.py`, `test_validation.py` | GAB |
 | M3 optimizer | `cost.py`, `optimizer.py`, `toll_table.py`, `scenarios.py`, `review_gab_validation.py` | DAVIN |
-| Perekat | `pipeline.py`, `demo.py` | bersama |
-| Data | `data/tarif_tol_jawa.csv` | DAVIN (sumber BPJT) |
+| Glue | `pipeline.py`, `demo.py` | shared |
+| Data | `data/tarif_tol_jawa.csv` | DAVIN (source: BPJT) |
 
-## Menjalankan
+## Running it
 
-### Lokal (Python 3.11+)
+### Local (Python 3.11+)
 
 ```bash
 python -m venv venv && source venv/bin/activate    # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-python demo.py            # demo rantai penuh Jakarta→Bandung (reefer vs non-reefer)
+python demo.py            # full-chain demo, Jakarta→Bandung (reefer vs non-reefer)
 ```
 
 ### Docker
@@ -67,25 +67,25 @@ python demo.py            # demo rantai penuh Jakarta→Bandung (reefer vs non-r
 docker compose up --build
 ```
 
-Menjalankan `demo.py` di dalam kontainer sebagai bukti reprodusibilitas lokal.
-CATH mengganti `command` di `docker-compose.yml` dengan service UI-nya saat siap.
+Runs `demo.py` inside the container as proof of local reproducibility. CATH swaps the
+`command` in `docker-compose.yml` for their UI service when ready.
 
-### Perintah lain
+### Other commands
 
 ```bash
-python scenarios.py             # what-if: reefer/non-reefer, jam berangkat, preferensi
-python test_validation.py       # uji kewarasan model spoilage (M2) — patokan FAO dsb.
-python review_gab_validation.py # review lintas-modul M3 atas M2
+python scenarios.py             # what-if: reefer/non-reefer, departure time, preference
+python test_validation.py       # sanity checks for the spoilage model (M2) — FAO benchmark, etc.
+python review_gab_validation.py # cross-module review of M2 from M3's perspective
 ```
 
-## Memakai dari kode UI/agent (CATH)
+## Using it from UI/agent code (CATH)
 
 ```python
 import pipeline
 from contracts import TripRequest
 from datetime import datetime
 
-pipeline.configure_cost(golongan="II_III")   # armada CDD; "I" utk pick up/truk kecil
+pipeline.configure_cost(golongan="II_III")   # CDD truck; use "I" for pickup / small truck
 
 req = TripRequest(
     origin=(106.8272, -6.1751),       # (lon, lat) Jakarta
@@ -102,28 +102,29 @@ result = pipeline.run_pipeline(req)   # -> contracts.RankedResult
 ```
 
 `RankedResult`: `.best`, `.pareto[]`, `.all_options[]`, `.deadline_feasible`, `.alert`.
-Tiap `RouteOption`: `.route`, `.quality`, `.cost`, `.score`, `.meets_deadline` — semua
-dataclass, langsung bisa `dataclasses.asdict(...)` → JSON untuk frontend.
+Each `RouteOption`: `.route`, `.quality`, `.cost`, `.score`, `.meets_deadline` — all
+dataclasses, so `dataclasses.asdict(...)` → JSON works directly for the frontend.
 
-## Ketergantungan jaringan & ketahanan demo
+## Network dependencies & demo resilience
 
-`routing.py` dan `temp_profile.py` memanggil **OSRM** (rute) dan **Open-Meteo** (cuaca) live.
-Keduanya gratis tanpa kunci. OSRM demo publik rate-limited (~1 req/detik), jadi ada
-**fallback fixture**: kalau server tak terjangkau, pipeline tetap menghasilkan ≥3 kandidat
-Jakarta–Bandung — demo & cross-check tidak akan gagal hanya karena jaringan.
+`routing.py` and `temp_profile.py` call **OSRM** (routing) and **Open-Meteo** (weather) live.
+Both are free and keyless. The public OSRM demo server is rate-limited (~1 req/sec), so there is
+a **fallback fixture**: if the server is unreachable, the pipeline still returns ≥3 Jakarta–Bandung
+candidates — the demo and the organizers' cross-check won't fail just because of the network.
 
-## Prinsip yang mengikat (jangan dilanggar)
+## Binding principles (do not violate)
 
-- **Physics-first, tanpa ML terlatih.** Setiap angka dari API atau rumus transparan.
-- **Tanpa IoT.** Suhu kargo = asumsi skenario (reefer setpoint / ambien), ditandai di `source`.
-- **LLM menarasikan angka, tidak mengarang.** Semua nilai dari fungsi Python.
-- **Satu model spoilage** (M2/GAB). Modul lain tidak menghitung kesegaran sendiri.
-- **`contracts.py` adalah hukum.** Perubahan diumumkan ke grup.
+- **Physics-first, no trained ML.** Every number comes from an API or a transparent formula.
+- **No IoT.** Cargo temperature is a scenario assumption (reefer setpoint / ambient), flagged in `source`.
+- **The LLM narrates numbers, never invents them.** All values come from Python functions.
+- **One spoilage model** (M2/GAB). No other module computes freshness on its own.
+- **`contracts.py` is law.** Any change is announced to the group.
 
-## Yang belum final (untuk kesadaran CATH)
+## Not yet final (for CATH's awareness)
 
-- Parameter statis skenario: golongan tol, konsumsi & harga BBM (`pipeline.configure_cost`).
-- Peta koridor tol saat ini Jakarta–Bandung (`routing.CORRIDOR_TOLL`).
-- Faktor ETA (`f_time`/`f_weather`) masih placeholder, menunggu kalibrasi.
-- Modul warisan RIO (`main.py` FastAPI + frontend MapKit) TIDAK disertakan; kepemilikan UI
-  masih dibicarakan. Backend ini adalah lapisan model yang sudah dipisah bersih dari UI.
+- Static scenario parameters: toll class, fuel consumption & price (`pipeline.configure_cost`).
+- Toll corridor map currently covers Jakarta–Bandung (`routing.CORRIDOR_TOLL`).
+- ETA factors (`f_time` / `f_weather`) are still placeholders pending calibration.
+- RIO's legacy modules (`main.py` FastAPI + MapKit frontend) are NOT included; UI ownership is
+  still under discussion. This backend is the model layer, cleanly separated from the UI.
+```
