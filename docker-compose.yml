@@ -1,0 +1,8 @@
+services:
+  backend:
+    build: .
+    container_name: coldchain-backend
+    # Demo rantai penuh M1->M2->M3. Ganti ke service UI CATH saat siap.
+    command: ["python", "demo.py"]
+    # Pipeline memanggil OSRM & Open-Meteo live; ada fallback offline
+    # sehingga tetap jalan tanpa internet (lihat README).
