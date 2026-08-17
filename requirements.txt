@@ -1,0 +1,12 @@
+# Inti pipeline & RAG default: TIDAK butuh dependensi (pure-Python + stdlib).
+# Instal ini hanya untuk fitur opsional:
+
+# LLM asli (parse_request + narrate via function calling Gemini):
+google-genai>=2.3.0
+
+# Upgrade RAG ke embedding semantik (opsional, ganti TfidfEmbedder):
+# sentence-transformers>=2.2.0
+# faiss-cpu>=1.7.4
+
+# Panggilan API nyata OSRM/cuaca (opsional):
+# requests>=2.31.0
