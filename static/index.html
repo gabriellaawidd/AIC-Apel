@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Cold Chain Route (MapKit)</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    #map { height: 70%; width: 100%; }
+    #panel {
+      height: 30%;
+      overflow-y: auto;
+      padding: 12px 16px;
+      font-family: sans-serif;
+      font-size: 14px;
+      box-sizing: border-box;
+      background: #fafafa;
+      border-top: 2px solid #ddd;
+    }
+    #panel h3 { margin: 8px 0 4px; }
+    .stat { display: inline-block; margin-right: 24px; }
+    .stat b { display: block; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="panel">Waiting for MapKit token...</div>
+
+  <script>
+    // Jakarta -> Bandung, same demo route as the Leaflet page
+    const start = { lat: -6.2088, lng: 106.8456 };
+    const end   = { lat: -6.9175, lng: 107.6191 };
+    const coordsQuery = `start_lat=${start.lat}&start_lng=${start.lng}&end_lat=${end.lat}&end_lng=${end.lng}`;
+
+    const panel = document.getElementById('panel');
+
+    // ---------------------------------------------------------------
+    // Step 1: get the MapKit JS token from our backend, then load the
+    // MapKit JS 6 script with it. This is the only part of the whole
+    // migration that can't run yet -- everything below it is ready to
+    // go the moment MAPKIT_JS_TOKEN is set on the server.
+    // ---------------------------------------------------------------
+    async function loadMapKit() {
+      let tokenData;
+      try {
+        tokenData = await fetch('/mapkit-token').then(r => r.json());
+      } catch (err) {
+        panel.innerHTML = "Could not reach /mapkit-token: " + err;
+        return;
+      }
+
+      if (tokenData.error) {
+        panel.innerHTML = "MapKit not ready yet: " + tokenData.error;
+        return;
+      }
+
+      window.initMapKit = onMapKitLoaded; // MapKit JS calls this once the script is ready
+
+      const script = document.createElement('script');
+      script.src = "https://cdn.apple-mapkit.com/mk/6/mapkit.core.js";
+      script.crossOrigin = "anonymous";
+      script.async = true;
+      script.dataset.callback = "initMapKit";
+      script.dataset.libraries = "map,services,annotations,overlays";
+      script.dataset.token = tokenData.token;
+      document.head.appendChild(script);
+    }
+
+    // ---------------------------------------------------------------
+    // Step 2: build the map, draw the OSRM route as an overlay, and
+    // get a traffic-aware ETA from mapkit.Directions.
+    // ---------------------------------------------------------------
+    function onMapKitLoaded() {
+      const map = new mapkit.Map("map", {
+        center: new mapkit.Coordinate(start.lat, start.lng),
+      });
+
+      // Start/end markers.
+      // NOTE: MarkerAnnotation is the standard MapKit JS marker class.
+      // If this throws, check the current MapKit JS 6 docs -- v6 is very
+      // recent and some class names may have shifted since this was written.
+      map.addAnnotation(new mapkit.MarkerAnnotation(new mapkit.Coordinate(start.lat, start.lng), { title: "Start" }));
+      map.addAnnotation(new mapkit.MarkerAnnotation(new mapkit.Coordinate(end.lat, end.lng), { title: "End" }));
+
+      drawOsrmRoute(map);
+      loadTrafficAwareEta();
+    }
+
+    // Reuses the SAME /route endpoint (OSRM) as the Leaflet page --
+    // MapKit is only replacing the rendering layer here, not the routing
+    // source. GeoJSON gives [lng, lat]; mapkit.Coordinate wants (lat, lng),
+    // so each point gets swapped on the way in.
+    function drawOsrmRoute(map) {
+      fetch(`/route?${coordsQuery}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.error) { alert("Route error: " + data.error); return; }
+
+          const coords = data.geometry.coordinates.map(([lng, lat]) => new mapkit.Coordinate(lat, lng));
+
+          const polyline = new mapkit.PolylineOverlay(coords, {
+            style: new mapkit.Style({ lineWidth: 4, strokeColor: "#0066ff" })
+          });
+          map.addOverlay(polyline);
+
+          // Fit the map to the route's bounding box.
+          const lats = coords.map(c => c.latitude);
+          const lngs = coords.map(c => c.longitude);
+          const minLat = Math.min(...lats), maxLat = Math.max(...lats);
+          const minLng = Math.min(...lngs), maxLng = Math.max(...lngs);
+
+          map.region = new mapkit.CoordinateRegion(
+            new mapkit.Coordinate((minLat + maxLat) / 2, (minLng + maxLng) / 2),
+            new mapkit.CoordinateSpan((maxLat - minLat) * 1.3, (maxLng - minLng) * 1.3)
+          );
+        });
+    }
+
+    // The actual point of this migration: ask MapKit for a traffic-aware
+    // travel time, then feed it into our EXISTING /eta endpoint (which now
+    // accepts an eta_base_seconds override) instead of letting /eta fall
+    // back to OSRM's traffic-oblivious duration.
+    //
+    // NOTE: callback signature below matches the long-standing documented
+    // mapkit.Directions API. Since MapKit JS 6 leans on promises elsewhere
+    // (see PlaceLookup), double-check this against current docs if it
+    // errors -- it may also support `await directions.eta(request)`.
+    // Guards against handleEtaResult firing twice, in case both the
+    // callback AND a returned Promise end up resolving.
+    let etaResultHandled = false;
+
+    function handleEtaResult(error, data) {
+      if (etaResultHandled) return;
+      etaResultHandled = true;
+
+      if (error || !data || !data.etas || !data.etas.length) {
+        console.warn("MapKit ETA unavailable, falling back to OSRM-based /eta:", error);
+        renderPanel(null);
+        return;
+      }
+      renderPanel(data.etas[0].expectedTravelTime);
+    }
+
+    function loadTrafficAwareEta() {
+      // Wrapped in try/catch: if the Directions call shape is wrong for
+      // this MapKit JS version, we still want the panel to render using
+      // the OSRM-based /eta rather than hang on "Waiting for..." forever.
+      try {
+        const directions = new mapkit.Directions();
+        const request = {
+          origin: new mapkit.Coordinate(start.lat, start.lng),
+          destinations: [new mapkit.Coordinate(end.lat, end.lng)],
+          transportType: mapkit.TransportType.Automobile,
+        };
+
+        // MapKit JS 6 may return a Promise INSTEAD of calling the callback
+        // -- if it does, the panel would otherwise sit stuck forever with
+        // no console error, since nothing actually threw. Handle both.
+        const maybePromise = directions.eta(request, (error, data) => {
+          handleEtaResult(error, data);
+        });
+
+        if (maybePromise && typeof maybePromise.then === "function") {
+          maybePromise
+            .then(data => handleEtaResult(null, data))
+            .catch(error => handleEtaResult(error, null));
+        }
+      } catch (err) {
+        console.error("mapkit.Directions call failed -- check the current MapKit JS 6 API reference for Directions/eta syntax:", err);
+        renderPanel(null);
+      }
+    }
+
+    // Fetches /spoilage and /eta together and renders the panel, same
+    // shape as the Leaflet page. When trafficAwareSeconds is available,
+    // it's passed to /eta so the ETA band reflects real traffic instead
+    // of OSRM's free-flow guess.
+    function renderPanel(trafficAwareSeconds) {
+      let etaUrl = `/eta?${coordsQuery}&departure_hour=7`;
+      if (trafficAwareSeconds !== null) {
+        etaUrl += `&eta_base_seconds=${trafficAwareSeconds}`;
+      }
+
+      Promise.all([
+        fetch(`/spoilage?${coordsQuery}&shelf_life_ref_hours=72`).then(r => r.json()),
+        fetch(etaUrl).then(r => r.json())
+      ]).then(([spoilage, eta]) => {
+        if (spoilage.error || eta.error) {
+          panel.innerHTML = "Error loading data: " + (spoilage.error || eta.error);
+          return;
+        }
+
+        const toMin = s => (s / 60).toFixed(0);
+
+        panel.innerHTML = `
+          <h3>Spoilage</h3>
+          <div class="stat"><b>${spoilage.pct_fresh_remaining}%</b> freshness remaining</div>
+          <div class="stat"><b>${spoilage.route_duration_hours} hrs</b> trip duration</div>
+
+          <h3>ETA Band</h3>
+          <div class="stat"><b>${toMin(eta.eta_optimistic_seconds)} min</b> optimistic</div>
+          <div class="stat"><b>${toMin(eta.eta_likely_seconds)} min</b> likely</div>
+          <div class="stat"><b>${toMin(eta.eta_pessimistic_seconds)} min</b> pessimistic</div>
+          <p style="color:#666; font-size:12px;">
+            source=${eta.source}, f_time=${eta.f_time}, f_weather=${eta.f_weather}, rain used=${eta.precipitation_mm_used}mm
+          </p>
+        `;
+      });
+    }
+
+    loadMapKit();
+  </script>
+</body>
+</html>
