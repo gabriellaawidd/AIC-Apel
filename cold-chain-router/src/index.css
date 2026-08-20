@@ -1,0 +1,30 @@
+/* Leaflet core styles, bundled locally instead of via CDN.
+   Must precede the Tailwind directives to satisfy CSS @import ordering. */
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: #f7f9fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Accent the freshness slider with the brand blue, matching the design */
+input[type='range'] {
+  accent-color: #2a78d6;
+}
+
+/* Tabular numerals for all the metric read-outs */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
