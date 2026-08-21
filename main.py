@@ -1,11 +1,27 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 from datetime import datetime, timedelta, timezone
 from math import radians, sin, cos, sqrt, atan2
 from typing import Optional
 import os
 import requests
+
+import trip_session
+
+# F1 depends on psycopg2 + a local PostGIS import that a teammate may
+# not have done yet (see F1_F2_IMPLEMENTATION_SPEC.md section 1.2). A
+# missing dependency disables /road-viability only -- it must never stop
+# the server from starting or break /route, /spoilage and /eta.
+try:
+    import road_viability as road_viability_mod
+    ROAD_VIABILITY_AVAILABLE = True
+    ROAD_VIABILITY_IMPORT_ERROR = None
+except Exception as exc:  # noqa: BLE001 -- any import failure disables F1, not the app
+    road_viability_mod = None
+    ROAD_VIABILITY_AVAILABLE = False
+    ROAD_VIABILITY_IMPORT_ERROR = str(exc)
 
 app = FastAPI()
 
@@ -103,25 +119,29 @@ def sample_points_along_route(coordinates, n_samples=6):
     return samples
 
 
-@app.get("/temperature-profile")
-def temperature_profile(start_lat: float, start_lng: float, end_lat: float, end_lng: float, n_samples: int = 6):
-    coords = f"{start_lng},{start_lat};{end_lng},{end_lat}"
-    url = f"{OSRM_BASE}/{coords}"
-    params = {"overview": "full", "geometries": "geojson"}
-    osrm_data = requests.get(url, params=params).json()
+def build_profile_from_geometry(coordinates_lnglat: list, total_duration_seconds: float,
+                                n_samples: int = 6):
+    """
+    Build a temperature/precipitation profile for a route geometry we
+    already hold, without asking OSRM to route it again.
 
-    if osrm_data.get("code") != "Ok":
-        return {"error": osrm_data.get("code", "unknown error")}
+    coordinates_lnglat: [[lng, lat], ...] in GeoJSON order -- the same
+        order OSRM returns, which is why every caller converts into this
+        order rather than the other way round.
 
-    route = osrm_data["routes"][0]
-    total_duration_sec = route["duration"]
-    geometry_coords = route["geometry"]["coordinates"]
+    Split out of temperature_profile() so F2 can score MapKit-supplied
+    alternative routes (spec section 2.8). Their geometry comes from
+    MapKit, so sending them back through OSRM would both waste a call and
+    score a different path than the one the driver was actually offered.
+    """
+    if not coordinates_lnglat:
+        return {"error": "empty geometry"}
 
-    points = sample_points_along_route(geometry_coords, n_samples=n_samples)
+    points = sample_points_along_route(coordinates_lnglat, n_samples=n_samples)
 
     now = datetime.now(timezone.utc)
     for p in points:
-        p["elapsed_seconds"] = p["fraction"] * total_duration_sec
+        p["elapsed_seconds"] = p["fraction"] * total_duration_seconds
         p["eta_time"] = (now + timedelta(seconds=p["elapsed_seconds"])).isoformat()
 
     lat_list = ",".join(str(p["lat"]) for p in points)
@@ -135,9 +155,23 @@ def temperature_profile(start_lat: float, start_lng: float, end_lat: float, end_
         "timezone": "UTC",
         "forecast_days": 3,
     }
-    weather_resp = requests.get(weather_url, params=weather_params).json()
+    try:
+        weather_resp = requests.get(weather_url, params=weather_params).json()
+    except requests.RequestException as exc:
+        return {"error": f"weather lookup failed: {exc}"}
 
     weather_by_point = weather_resp if isinstance(weather_resp, list) else [weather_resp]
+
+    # A failed Open-Meteo call answers with a dict carrying "reason"
+    # instead of the per-point list. Caught here so callers get a clear
+    # error rather than a KeyError on w["hourly"] -- F2 recomputes this
+    # on every position update, so a transient weather failure must not
+    # take down live tracking.
+    if len(weather_by_point) < len(points) or "hourly" not in weather_by_point[0]:
+        reason = ""
+        if isinstance(weather_resp, dict):
+            reason = weather_resp.get("reason", "")
+        return {"error": f"weather lookup returned no usable data. {reason}".strip()}
 
     for p, w in zip(points, weather_by_point):
         hourly_times = w["hourly"]["time"]
@@ -156,10 +190,30 @@ def temperature_profile(start_lat: float, start_lng: float, end_lat: float, end_
         p["precipitation_mm"] = hourly_precip[idx]
 
     return {
-        "total_duration_seconds": total_duration_sec,
-        "total_distance_meters": route["distance"],
+        "total_duration_seconds": total_duration_seconds,
         "profile": points,
     }
+
+
+@app.get("/temperature-profile")
+def temperature_profile(start_lat: float, start_lng: float, end_lat: float, end_lng: float, n_samples: int = 6):
+    coords = f"{start_lng},{start_lat};{end_lng},{end_lat}"
+    url = f"{OSRM_BASE}/{coords}"
+    params = {"overview": "full", "geometries": "geojson"}
+    osrm_data = requests.get(url, params=params).json()
+
+    if osrm_data.get("code") != "Ok":
+        return {"error": osrm_data.get("code", "unknown error")}
+
+    route = osrm_data["routes"][0]
+    result = build_profile_from_geometry(
+        route["geometry"]["coordinates"], route["duration"], n_samples=n_samples
+    )
+    if "error" in result:
+        return result
+
+    result["total_distance_meters"] = route["distance"]
+    return result
 
 def rrs(temp_c: float, t_ref: float = 0.0, t_min: float = -10.0) -> float:
     """
@@ -328,5 +382,185 @@ def eta(start_lat: float, start_lng: float, end_lat: float, end_lng: float,
     band["precipitation_mm_used"] = precipitation_mm
     band["source"] = "mapkit_traffic_aware" if using_traffic_aware_base else "osrm_free_flow"
     return band
+
+# =======================================================================
+# F1 -- Road size awareness
+# =======================================================================
+# Every endpoint below is registered BEFORE the StaticFiles mount at the
+# bottom of this file. FastAPI matches routes in registration order, and
+# a mount at "/" swallows anything registered after it.
+
+@app.post("/road-viability")
+def road_viability(
+    start_lat: float, start_lng: float, end_lat: float, end_lng: float,
+    vehicle_profile: str = "small_reefer_truck",
+    sample_every_n_points: int = 3,
+):
+    """
+    Checks whether the current OSRM route for this start/end pair passes
+    through roads unsuitable for the given vehicle profile.
+
+    Does NOT compute an alternative route itself -- that's the caller's
+    job. This endpoint answers "is this route OK", not "give me a better
+    one" (spec section 1.6, decision (a): kept as a separate additive
+    call so /route stays fast and works on machines without the OSM
+    import).
+    """
+    if not ROAD_VIABILITY_AVAILABLE:
+        return {
+            "overall_viable": None,
+            "coverage": "unavailable",
+            "error": f"road_viability module could not be loaded: {ROAD_VIABILITY_IMPORT_ERROR}",
+        }
+
+    if vehicle_profile not in road_viability_mod.VEHICLE_PROFILES:
+        return {"error": f"unknown vehicle_profile, choose from {list(road_viability_mod.VEHICLE_PROFILES)}"}
+
+    route_data = get_route(start_lat, start_lng, end_lat, end_lng)
+    if "error" in route_data:
+        return route_data
+
+    # GeoJSON coordinates are [lng, lat] -- swap for check_route_viability
+    coords = [(lat, lng) for lng, lat in route_data["geometry"]["coordinates"]]
+
+    result = road_viability_mod.check_route_viability(
+        coords,
+        vehicle_profile_name=vehicle_profile,
+        sample_every_n_points=sample_every_n_points,
+    )
+    result["route_duration_seconds"] = route_data["duration_seconds"]
+    return result
+
+
+# =======================================================================
+# F2 -- Live GPS tracking + dynamic re-routing
+# =======================================================================
+
+class AlternativesPayload(BaseModel):
+    """
+    Body of POST /trip/{trip_id}/evaluate-alternatives.
+
+    current_lat/current_lng are optional: when the frontend doesn't send
+    them we fall back to the most recent GPS fix on the session, and
+    then to the trip's start point. That keeps the endpoint usable from
+    curl during testing without the caller having to track position.
+    """
+    alternatives: list[dict]
+    current_lat: Optional[float] = None
+    current_lng: Optional[float] = None
+
+
+class AcceptAlternativePayload(BaseModel):
+    geometry: list  # [[lat, lng], ...] as offered by evaluate-alternatives
+
+
+def _resolve_current_position(session, lat: Optional[float], lng: Optional[float]):
+    if lat is not None and lng is not None:
+        return lat, lng
+    last = session.last_position()
+    if last is not None:
+        return last.lat, last.lng
+    return session.start_lat, session.start_lng
+
+
+@app.post("/trip/create")
+def start_trip(start_lat: float, start_lng: float, end_lat: float, end_lng: float,
+               shelf_life_ref_hours: float = 72):
+    """
+    Called once, when the driver actually departs -- not at route-planning
+    time. A trip session represents a real, in-progress journey, and its
+    departure_time is the clock all later drift is measured against.
+    """
+    try:
+        session = trip_session.create_trip_session(
+            start_lat, start_lng, end_lat, end_lng, shelf_life_ref_hours
+        )
+    except ValueError as exc:
+        return {"error": str(exc)}
+
+    return {
+        "trip_id": session.trip_id,
+        "original_projected_freshness_pct": session.original_projected_freshness_pct,
+        "original_duration_seconds": session.original_duration_seconds,
+        "departure_time": session.departure_time.isoformat(),
+        "end_lat": session.end_lat,
+        "end_lng": session.end_lng,
+    }
+
+
+@app.post("/trip/{trip_id}/position")
+def report_position(trip_id: str, lat: float, lng: float, accuracy_m: float = 0.0):
+    """
+    Ingests a live GPS position update for an in-progress trip.
+    Returns whether a re-route check should be surfaced to the driver.
+
+    Does NOT compute alternative routes itself (MapKit alternatives are
+    fetched client-side -- see spec section 2.8). This endpoint only
+    answers "should we bother looking for a better route right now".
+    """
+    session = trip_session.get_trip_session(trip_id)
+    if session is None:
+        return {"error": f"no trip session found for trip_id={trip_id}"}
+
+    session.position_history.append(trip_session.PositionUpdate(
+        lat=lat, lng=lng, accuracy_m=accuracy_m,
+        timestamp=datetime.now(timezone.utc),
+    ))
+
+    verdict = trip_session.should_suggest_reroute(session, lat, lng)
+    verdict["position_count"] = len(session.position_history)
+    return verdict
+
+
+@app.post("/trip/{trip_id}/evaluate-alternatives")
+def evaluate_alternatives(trip_id: str, payload: AlternativesPayload):
+    """
+    Scores candidate routes from MapKit JS (fetched client-side with
+    alternatives: true) by projected freshness, and returns them ranked
+    alongside the current route as a baseline for comparison.
+    """
+    session = trip_session.get_trip_session(trip_id)
+    if session is None:
+        return {"error": f"no trip session found for trip_id={trip_id}"}
+
+    current_lat, current_lng = _resolve_current_position(
+        session, payload.current_lat, payload.current_lng
+    )
+
+    return trip_session.evaluate_alternative_routes(
+        session, current_lat, current_lng, payload.alternatives
+    )
+
+
+@app.post("/trip/{trip_id}/accept-alternative")
+def accept_alternative(trip_id: str, payload: AcceptAlternativePayload):
+    """
+    Records that the driver switched to one of the offered alternatives
+    (spec section 2.9, step 5). The original plan stays on the session
+    for post-trip analysis -- this only changes what counts as "current"
+    going forward.
+    """
+    session = trip_session.get_trip_session(trip_id)
+    if session is None:
+        return {"error": f"no trip session found for trip_id={trip_id}"}
+
+    trip_session.accept_alternative(session, payload.geometry)
+    return {
+        "trip_id": trip_id,
+        "active_route_point_count": len(payload.geometry),
+        "reroute_offered_count": session.reroute_offered_count,
+    }
+
+
+# Wire trip_session to the functions it needs. Done here, after they're
+# all defined, because main.py imports FROM trip_session -- importing
+# back the other way would be circular. See trip_session.configure().
+trip_session.configure(
+    get_route=get_route,
+    temperature_profile=temperature_profile,
+    compute_spoilage=compute_spoilage,
+    profile_from_geometry=build_profile_from_geometry,
+)
+
 
 app.mount("/", StaticFiles(directory="static", html=True), name="static")

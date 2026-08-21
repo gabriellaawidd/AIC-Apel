@@ -5,12 +5,12 @@
   <title>Cold Chain Route (MapKit)</title>
   <style>
     html, body { height: 100%; margin: 0; }
-    #map { height: 70%; width: 100%; }
+    body { display: flex; flex-direction: column; font-family: sans-serif; }
+    #map { flex: 1 1 auto; min-height: 0; width: 100%; }
     #panel {
-      height: 30%;
+      flex: 0 0 34%;
       overflow-y: auto;
       padding: 12px 16px;
-      font-family: sans-serif;
       font-size: 14px;
       box-sizing: border-box;
       background: #fafafa;
@@ -19,12 +19,70 @@
     #panel h3 { margin: 8px 0 4px; }
     .stat { display: inline-block; margin-right: 24px; }
     .stat b { display: block; font-size: 18px; }
+
+    /* --- F1/F2 controls and banners --- */
+    #controls {
+      flex: 0 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: #f2f4f5;
+      border-top: 1px solid #ddd;
+      font-size: 13px;
+    }
+    #controls button {
+      font: inherit;
+      padding: 5px 12px;
+      border: 1px solid #9aa8ae;
+      border-radius: 4px;
+      background: #fff;
+      cursor: pointer;
+    }
+    #controls button:disabled { opacity: .5; cursor: default; }
+    .tracking-status { color: #566b76; }
+    .tracking-error { color: #a0392f; }
+    .tracking-warn  { color: #9e5f12; }
+    .tracking-ok    { color: #0c6b76; }
+
+    #banners { flex: 0 0 auto; }
+    .banner {
+      padding: 10px 16px;
+      font-size: 13px;
+      line-height: 1.5;
+      border-top: 1px solid rgba(0, 0, 0, .12);
+    }
+    .banner strong { font-size: 14px; }
+    .banner-detail { color: #444; margin-top: 2px; }
+    .banner button {
+      font: inherit;
+      margin: 6px 6px 0 0;
+      padding: 4px 12px;
+      border: 1px solid currentColor;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, .75);
+      cursor: pointer;
+    }
+    .banner-warn   { background: #fbefdd; color: #7a4a0e; }
+    .banner-danger { background: #fae7e4; color: #8a2f26; }
+    .banner-action { background: #e2f0f1; color: #0a545c; }
+    .banner-info   { background: #eef1f2; color: #3d4b52; }
   </style>
 </head>
 <body>
   <div id="map"></div>
+
+  <div id="controls">
+    <button type="button" id="start-trip-btn" onclick="onStartTrip()" disabled>Start trip</button>
+    <button type="button" id="stop-trip-btn" onclick="onStopTrip()" disabled>Stop trip</button>
+    <span id="tracking-status" class="tracking-status">Trip not started.</span>
+  </div>
+
+  <div id="banners"></div>
   <div id="panel">Waiting for MapKit token...</div>
 
+  <script src="/live-tracking.js"></script>
   <script>
     // Jakarta -> Bandung, same demo route as the Leaflet page
     const start = { lat: -6.2088, lng: 106.8456 };
@@ -32,6 +90,11 @@
     const coordsQuery = `start_lat=${start.lat}&start_lng=${start.lng}&end_lat=${end.lat}&end_lng=${end.lng}`;
 
     const panel = document.getElementById('panel');
+
+    let mapRef = null;                  // set once MapKit finishes loading
+    let activeRouteOverlay = null;      // the blue planned-route polyline
+    let blockedOverlays = [];           // red markers over unsuitable segments
+    let blockedSegmentsPending = null;  // F1 results waiting for a map to draw on
 
     // ---------------------------------------------------------------
     // Step 1: get the MapKit JS token from our backend, then load the
@@ -73,6 +136,7 @@
       const map = new mapkit.Map("map", {
         center: new mapkit.Coordinate(start.lat, start.lng),
       });
+      mapRef = map;   // kept so a re-route (F2) can redraw the route later
 
       // Start/end markers.
       // NOTE: MarkerAnnotation is the standard MapKit JS marker class.
@@ -101,6 +165,7 @@
             style: new mapkit.Style({ lineWidth: 4, strokeColor: "#0066ff" })
           });
           map.addOverlay(polyline);
+          activeRouteOverlay = polyline;
 
           // Fit the map to the route's bounding box.
           const lats = coords.map(c => c.latitude);
@@ -112,8 +177,143 @@
             new mapkit.Coordinate((minLat + maxLat) / 2, (minLng + maxLng) / 2),
             new mapkit.CoordinateSpan((maxLat - minLat) * 1.3, (maxLng - minLng) * 1.3)
           );
+
+          // F1: the route exists, so blocked segments can be drawn on it.
+          // The check itself runs on page load regardless of MapKit --
+          // see checkRoadViability() below.
+          if (blockedSegmentsPending) {
+            drawBlockedSegments(map, blockedSegmentsPending);
+            blockedSegmentsPending = null;
+          }
         });
     }
+
+    // ---------------------------------------------------------------
+    // F1: road-size awareness. Draws a warning banner and marks the
+    // offending points in red. Distinguishes "confirmed too narrow"
+    // from "width unknown" so the demo doesn't claim more certainty
+    // than the OSM data supports.
+    // ---------------------------------------------------------------
+    function checkRoadViability() {
+      fetch(`/road-viability?${coordsQuery}&vehicle_profile=small_reefer_truck`, {
+        method: "POST"
+      })
+        .then(r => r.json())
+        .then(data => {
+          if (data.error && data.coverage !== "unavailable") {
+            console.warn("Road viability check failed:", data.error);
+            return;
+          }
+
+          // Not set up on this machine -- stay silent rather than
+          // showing a scary banner about our own missing database.
+          if (data.coverage === "unavailable") {
+            console.info("Road viability unavailable:", data.error);
+            return;
+          }
+
+          if (data.coverage === "no_data") {
+            showBanner("viability-banner", "info", `
+              <strong>Road width not checked</strong>
+              <div class="banner-detail">
+                No OpenStreetMap road data covers this route — the local extract is Java only.
+              </div>
+            `);
+            return;
+          }
+
+          // The map may not exist yet (or at all, without a MapKit
+          // token). Hold the segments and draw them if/when it appears.
+          if (mapRef) {
+            drawBlockedSegments(mapRef, data.blocked_segments || []);
+          } else {
+            blockedSegmentsPending = data.blocked_segments || [];
+          }
+
+          const blocked = (data.blocked_segments || []).length;
+          const unknown = (data.unknown_segments || []).length;
+
+          if (blocked > 0) {
+            showBanner("viability-banner", "danger", `
+              <strong>Route passes through ${blocked} road segment(s) that may be too narrow for this vehicle</strong>
+              <div class="banner-detail">
+                Profile ${data.vehicle_profile} needs ${data.required_width_m}m of clearance.
+                ${unknown > 0 ? `${unknown} further segment(s) have no width data and were not confirmed either way.` : ""}
+              </div>
+              <div class="banner-detail">${describeWorstSegments(data.blocked_segments)}</div>
+            `);
+          } else if (unknown > 0) {
+            showBanner("viability-banner", "warn", `
+              <strong>No blocked roads found, but ${unknown} of ${data.sampled_point_count} checked point(s) have no width data</strong>
+              <div class="banner-detail">
+                Width tags are sparse on residential roads in OpenStreetMap, so this is
+                “not confirmed”, not “confirmed fine”.
+              </div>
+            `);
+          } else {
+            showBanner("viability-banner", "info", `
+              <strong>Road width OK across all ${data.sampled_point_count} checked points</strong>
+              <div class="banner-detail">Profile ${data.vehicle_profile}, ${data.required_width_m}m required.</div>
+            `);
+          }
+        })
+        .catch(err => console.warn("Road viability request failed:", err));
+    }
+
+    function describeWorstSegments(segments) {
+      return segments.slice(0, 3)
+        .map(s => `${s.highway || "road"} (${s.reason})`)
+        .join("; ");
+    }
+
+    function drawBlockedSegments(map, segments) {
+      blockedOverlays.forEach(o => map.removeOverlay(o));
+      blockedOverlays = [];
+
+      segments.forEach(s => {
+        const circle = new mapkit.CircleOverlay(
+          new mapkit.Coordinate(s.lat, s.lng), 120,
+          { style: new mapkit.Style({
+              strokeColor: "#c0392b", fillColor: "#c0392b",
+              fillOpacity: 0.35, lineWidth: 2,
+          }) }
+        );
+        map.addOverlay(circle);
+        blockedOverlays.push(circle);
+      });
+    }
+
+    // ---------------------------------------------------------------
+    // F2: trip controls. startTrip/stopTracking live in live-tracking.js.
+    // ---------------------------------------------------------------
+    async function onStartTrip() {
+      const created = await startTrip(start.lat, start.lng, end.lat, end.lng, 72);
+      if (created) {
+        document.getElementById('start-trip-btn').disabled = true;
+        document.getElementById('stop-trip-btn').disabled = false;
+      }
+    }
+
+    function onStopTrip() {
+      stopTracking();
+      document.getElementById('start-trip-btn').disabled = false;
+      document.getElementById('stop-trip-btn').disabled = true;
+    }
+
+    // Called by live-tracking.js once the driver accepts an alternative.
+    // Redrawing lives here because this file owns the map.
+    window.onRouteSwitched = function (geometryLatLng) {
+      if (!mapRef) return;
+
+      if (activeRouteOverlay) {
+        mapRef.removeOverlay(activeRouteOverlay);
+      }
+      const coords = geometryLatLng.map(([lat, lng]) => new mapkit.Coordinate(lat, lng));
+      activeRouteOverlay = new mapkit.PolylineOverlay(coords, {
+        style: new mapkit.Style({ lineWidth: 4, strokeColor: "#0c6b76" })
+      });
+      mapRef.addOverlay(activeRouteOverlay);
+    };
 
     // The actual point of this migration: ask MapKit for a traffic-aware
     // travel time, then feed it into our EXISTING /eta endpoint (which now
@@ -206,6 +406,15 @@
         `;
       });
     }
+
+    // F1 and F2 both work without MapKit: the viability check only needs
+    // /route, and live tracking only needs the browser's Geolocation API.
+    // Only fetching route ALTERNATIVES needs MapKit, and that path already
+    // degrades to a plain drift warning. So neither waits on the token --
+    // otherwise nothing here would be testable until Apple enrollment
+    // clears, which is the whole reason this was hard to demo.
+    checkRoadViability();
+    document.getElementById('start-trip-btn').disabled = false;
 
     loadMapKit();
   </script>
