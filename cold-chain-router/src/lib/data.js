@@ -5,7 +5,7 @@ export const ROUTES_BASE = [
   {
     id: 'A',
     name: 'Rute A — Tol Cipularang',
-    color: '#2a78d6',
+    color: '#007AFF',
     coords: [
       [-6.1783, 106.6319],
       [-6.2493, 106.9896],
@@ -80,7 +80,7 @@ export const ROUTES_BASE = [
   {
     id: 'B',
     name: 'Rute B — Puncak–Cianjur',
-    color: '#7c3aed',
+    color: '#5856D6',
     coords: [
       [-6.1783, 106.6319],
       [-6.4025, 106.8106],
@@ -151,7 +151,7 @@ export const ROUTES_BASE = [
   {
     id: 'C',
     name: 'Rute C — Pantura–Subang',
-    color: '#0d9488',
+    color: '#30B0C7',
     coords: [
       [-6.1783, 106.6319],
       [-6.2493, 106.9896],
@@ -250,10 +250,12 @@ export const WEIGHT_PRESETS = {
 
 export const WEIGHT_PRESET_OPTIONS = Object.keys(WEIGHT_PRESETS);
 
+// Warna status memakai system colors iOS (green / orange / red) supaya konsisten
+// dengan bahasa visual Apple HIG di seluruh UI.
 export const STATUS_META = {
-  aman: { label: 'Aman', bg: '#dcfce7', fg: '#15803d', dot: '#16a34a' },
-  waspada: { label: 'Waspada', bg: '#fef9c3', fg: '#a16207', dot: '#ca8a04' },
-  berisiko: { label: 'Berisiko', bg: '#fee2e2', fg: '#b91c1c', dot: '#dc2626' },
+  aman: { label: 'Aman', bg: 'rgba(52,199,89,0.12)', fg: '#1E7B36', dot: '#34C759' },
+  waspada: { label: 'Waspada', bg: 'rgba(255,149,0,0.14)', fg: '#9A5B00', dot: '#FF9500' },
+  berisiko: { label: 'Berisiko', bg: 'rgba(255,59,48,0.12)', fg: '#B32218', dot: '#FF3B30' },
 };
 
 export const COST_LABELS = {
@@ -264,4 +266,4 @@ export const COST_LABELS = {
 };
 
 // Segment status colour used by the map heat overlay
-export const SEGMENT_STATUS_COLOR = { green: '#16a34a', yellow: '#ca8a04', red: '#dc2626' };
+export const SEGMENT_STATUS_COLOR = { green: '#34C759', yellow: '#FF9500', red: '#FF3B30' };
