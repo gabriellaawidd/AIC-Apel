@@ -130,22 +130,22 @@ diubah sembarangan.
 | Gemini API key | opsional. Tanpa ini tetap jalan, cuma penjelasannya pakai template |
 | MapKit JS token | opsional. Tanpa ini petanya otomatis pakai OpenStreetMap |
 
-Cek dulu versi Python kamu:
+Cek versi Python:
 
 ```bash
 python3 --version
 ```
 
-Kalau belum ada, di macOS pakai `brew install python@3.12`, di Windows unduh dari
-[python.org](https://www.python.org/downloads/).
+Belum ada Python? macOS: `brew install python@3.12`. Windows:
+[python.org/downloads](https://www.python.org/downloads/).
 
 ---
 
 ## Cara menjalankan
 
-Ada tiga cara. Pilih salah satu, dan cara pertama yang paling gampang.
+Pilih salah satu dari tiga cara berikut.
 
-### Cara 1: sekali perintah, backend dan tampilan langsung nyala
+### Cara 1: satu perintah (rekomendasi)
 
 ```bash
 cd frontend
@@ -153,37 +153,23 @@ npm install
 npm run dev
 ```
 
-Sudah, itu saja. Skrip `dev-backend.mjs` otomatis bikin `.venv`, install semua
-dependency Python-nya, lalu menyalakan backend. Kamu tidak perlu ngapa-ngapain lagi.
+Ini otomatis membuat `.venv`, install dependency Python, dan menyalakan backend.
 
 - Tampilan: http://localhost:5173
-- Backend: http://127.0.0.1:8000 (sudah di-proxy, jadi tidak perlu dibuka langsung)
+- Backend: http://127.0.0.1:8000 (di-proxy dari frontend, tidak perlu dibuka langsung)
 
-Buat berhenti, tekan `Ctrl+C`.
+Berhenti dengan `Ctrl+C`.
 
-### Cara 2: backend saja, dijalankan manual
+### Cara 2: backend manual
 
-Cocok kalau kamu cuma butuh API-nya, atau penasaran apa yang sebenarnya terjadi.
-
-Jalankan dari folder utama, yang ada file `requirements.txt`-nya:
+Dari folder utama (yang ada `requirements.txt`):
 
 ```bash
 python3 -m venv .venv
-```
-
-Lalu aktifkan:
-
-```bash
 source .venv/bin/activate          # macOS / Linux
 .venv\Scripts\Activate.ps1         # Windows PowerShell
 .venv\Scripts\activate.bat         # Windows CMD
-```
 
-Kalau berhasil, bakal muncul tulisan `(.venv)` di depan prompt terminalmu.
-
-Sekarang install dan nyalakan:
-
-```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 
@@ -191,44 +177,39 @@ cd backend
 uvicorn api:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-Buka http://localhost:8000/docs. Itu dokumentasi API otomatis, dan endpoint-nya bisa
-langsung dicoba dari browser.
+Prompt terminal akan menampilkan `(.venv)` setelah environment aktif. Dokumentasi API
+otomatis tersedia di http://localhost:8000/docs.
 
-Kalau sudah selesai, keluar dari venv pakai `deactivate`.
+Keluar dari venv dengan `deactivate`.
 
 ### Cara 3: Docker
-
-Buat yang tidak mau ribet urusan Python:
 
 ```bash
 cd backend
 docker compose up --build
 ```
 
-Backend bakal hidup di http://localhost:8000, dan file `.env` di folder utama tetap kebaca.
+Backend berjalan di http://localhost:8000, dan `.env` dari folder utama otomatis terbaca.
 
-Kalau habis mengubah isi `.env` atau kodenya, jangan pakai `docker compose restart`,
-karena itu cuma menghidupkan ulang proses lama dengan konfigurasi lama. Pakai
-`docker compose up -d --build` supaya perubahannya benar-benar kepakai.
+Setelah mengubah `.env` atau kode, pakai `docker compose up -d --build`, bukan
+`docker compose restart`. Perintah `restart` tidak membaca ulang `.env`.
 
 ---
 
 ## Mengisi `.env`
 
-Copy dulu contohnya:
-
 ```bash
 cp .env.example .env
 ```
 
-Isinya cuma dua baris:
+Isi dua variabel ini:
 
 ```env
 GEMINI_API_KEY=
 MAPKIT_JS_TOKEN=
 ```
 
-Dua-duanya boleh dikosongkan. Aplikasinya tetap jalan, cuma ada fitur yang turun kualitasnya:
+Keduanya opsional. Tanpa diisi, aplikasi tetap jalan dengan fitur yang lebih sederhana:
 
 | Kalau kosong | Yang terjadi |
 |---|---|
