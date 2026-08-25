@@ -1,4 +1,4 @@
-# Cold Chain AI
+# LENS — Logistic Evaluation and Navigation System
 
 **"Barangnya masih layak jual nggak ya, pas sampai nanti?"**
 
@@ -339,15 +339,3 @@ Ditulis di sini supaya tidak ada yang kaget:
   diperbarui berkali-kali sehari. Kalau kamu butuh angka yang bisa dikutip di dokumen,
   catat juga tanggal dan jam pengambilannya.
 - **Belum ada uji otomatis** di repo ini.
-
----
-
-## Buat yang mau ikut ngoprek
-
-Beberapa aturan yang kami pegang, biar tidak saling menimpa:
-
-1. `backend/contracts.py` itu kontrak bersama — mau ubah, umumkan dulu ke grup.
-2. **Cuma ada satu model kesegaran** (M2). Modul lain tidak boleh hitung kesegaran sendiri.
-3. **Angka tidak boleh datang dari LLM.** Titik.
-4. Pesan commit pakai [Conventional Commits](https://www.conventionalcommits.org/):
-   `feat:`, `fix:`, `refactor:`, `chore:`, `docs:`.
