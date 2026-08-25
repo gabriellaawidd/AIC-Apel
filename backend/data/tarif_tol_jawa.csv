@@ -1,0 +1,879 @@
+kelompok,ruas,sk_tarif,tanggal_sk,sistem,asal,tujuan,gol_I,gol_II_III,gol_IV_V,sumber
+Jabodetabek,6 (Enam) Ruas Dalam Kota Jakarta Seksi A (Kelapa Gading-Pulo Gebang),KEPMEN PUPR Nomor 544/KPTS/M/2024,29 Februari 2024,tertutup,Kelapa Gading,Pulogebang,22000,33000,44000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Akses Tanjung Priuk,KEPMEN PUPR Nomor 1604/KPTS/M/2023,16 November 2023,tertutup,Akses Tanjung Priok,"Seksi E1,E2,E2A",17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Bekasi-Cawang-Kampung Melayu,KEPMEN PUPR Nomor 685/KPTS/M/2025,22 Juli 2025,tertutup,Casablanca,GT Bintara Jaya dan Jakasampurna,23000,34000,45500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Bekasi-Cawang-Kampung Melayu,KEPMEN PUPR Nomor 685/KPTS/M/2025,22 Juli 2025,tertutup,Casablanca,GT Jatiwaringin 1 dan 2,10500,16000,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Bekasi-Cawang-Kampung Melayu,KEPMEN PUPR Nomor 685/KPTS/M/2025,22 Juli 2025,tertutup,Casablanca,GT Marga Jaya 1 dan 2,29000,43500,58000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Bekasi-Cawang-Kampung Melayu,KEPMEN PUPR Nomor 685/KPTS/M/2025,22 Juli 2025,tertutup,Casablanca,GT Pondok Kelapa 1 dan 2,16000,24000,32000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Bogor Ring Road Seksi I-IIIA (Sentul Selatan-Simpang Semplak),KEPMEN PUPR Nomor 398/KPTS/M/2025,26 Maret 2025,tertutup,Sentul Selatan,Simpang Semplak,15000,22500,30000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cawang-Tj. Priok-Ancol Timur-Jembatan Tiga/Pluit,KEPMEN PUPR Nomor 2130/KPTS/M/2024,22 Agustus 2024,tertutup,Cawang,Jembatan Tiga/Pluit,11000,16500,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cawang-Tomang-Pluit (CTC),KEPMEN PUPR Nomor 2130/KPTS/M/2024,22 Agustus 2024,tertutup,Cawang,Pluit,11000,16500,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Benda Utama,Jc Kunciran,22500,33500,45000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Benda Utama,Pinang,19000,28000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Benda Utama,Tanah Tinggi,10500,16000,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Buaran Indah,Jc Kunciran,9000,13000,17500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Buaran Indah,Pinang,5000,8000,10500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,JC Benda,JC Kunciran,27000,41000,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,JC Benda,Pinang,23500,35500,47000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,JC Benda,Tanah Tinggi,15500,23000,30500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,JC Kunciran,Benda Utama,22500,33500,45000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,JC Kunciran,Buaran Indah,9000,13000,17500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,JC Kunciran,Jc Benda,27000,41000,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,JC Kunciran,Pinang,3000,4500,5500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Pinang,Benda Utama,19000,28000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Pinang,Buaran Indah,5000,8000,10500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Pinang,JC Kunciran,3000,4500,5500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Pinang,Jc Benda,23500,35500,47000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Tanah Tinggi,Benda Utama,10500,16000,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cengkareng-Batu Ceper-Kunciran,KEPMEN PUPR Nomor 1982/KPTS/M2023,29 Desember 2023,tertutup,Tanah Tinggi,Jc Benda,15500,23000,30500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Cibitung,Gabus,25500,38000,50500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Cibitung,Tarumajaya,54000,81000,107500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Gabus,Cibitung,25500,38000,50500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Gabus,Tarumajaya,28500,43000,57000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Gabus,Telaga Asih,20000,30000,40000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Tarumajaya,Cibitung,54000,81000,107500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Tarumajaya,Gabus,28500,43000,57000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Tarumajaya,Telaga Asih,48500,73000,97000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Telaga Asih,Gabus,20000,30000,40000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 2 &3,KEPMEN PUPR Nomor 750/KPTS/M/2022,22 Juli 2022,tertutup,Telaga Asih,Tarumajaya,48500,73000,97000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Cibitung,Cilincing,68500,102500,136500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Cilincing,Cibitung,68500,102500,136500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Cilincing,Gabus,43000,64500,86000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Cilincing,Tarumajaya,14500,21500,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Cilincing,Telaga Asih,63000,94500,126000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Gabus,Cilincing,43000,64500,86000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Tarumajaya,Cilincing,14500,21500,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung - Cilincing Seksi 4,KEPMEN PUPR Nomor 800/KPTS/M/2023,26 Juli 2023,tertutup,Telaga Asih,Cilincing,63000,94500,126000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung-Cilincing Seksi 1,KEPMEN PUPR Nomor 2112/KPTS/M/2024,19 Agustus 2024,tertutup,Jc Cibitung,Telaga Asih,6500,9500,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cibitung-Cilincing Seksi 1,KEPMEN PUPR Nomor 2112/KPTS/M/2024,19 Agustus 2024,tertutup,Telaga Asih,Jc Cibitung,6500,9500,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 1 -2A,KEPMEN PUPR Nomor 856/KPTS/M/2023,31 Juli 2023,tertutup,Junction Cimanggis,On/Off Ramp Jatikarya,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 1 -2A,KEPMEN PUPR Nomor 856/KPTS/M/2023,31 Juli 2023,tertutup,Junction Cimanggis,Simpang Susun Cikeas,13500,20000,27000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 1 -2A,KEPMEN PUPR Nomor 856/KPTS/M/2023,31 Juli 2023,tertutup,On/Off Ramp Jatikarya,junction Cimanggis,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 1 -2A,KEPMEN PUPR Nomor 856/KPTS/M/2023,31 Juli 2023,tertutup,Simpang Susun Cikeas,Junction Cimanggis,13500,20000,27000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,JC Cibitung,Jatikarya,48500,72500,97000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,JC Cibitung,SS Cikeas,40500,61000,81000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,JC Cibitung,SS Narogong,34000,51500,68500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,JC Cibitung,SS Setu Selatan,21000,31500,42000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,JC Cibitung,SS Setu Utara,5000,7500,10000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,Jatikarya,JC Cibitung,48500,72500,97000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,Jatikarya,SS Cikeas,8000,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,Jatikarya,SS Narogong,14000,21000,28500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,Jatikarya,SS Setu Selatan,27500,41000,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,Jatikarya,SS Setu Utara,43500,65500,87000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Cikeas,JC Cibitung,40500,61000,81000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Cikeas,Jatikarya,8000,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Cikeas,SS Narogong,6500,9500,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Cikeas,SS Setu Selatan,19500,29000,39000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Cikeas,SS Setu Utara,35500,53500,71500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Narogong,JC Cibitung,34000,51500,68500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Narogong,Jatikarya,14000,21000,28500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Narogong,SS Cikeas,6500,9500,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Narogong,SS Setu Selatan,13000,19500,26500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Narogong,SS Setu Utara,29500,44000,58500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Selatan,JC Cibitung,21000,31500,42000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Selatan,Jatikarya,27500,41000,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Selatan,SS Cikeas,19500,29000,39000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Selatan,SS Narogong,13000,19500,26500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Selatan,SS Setu Utara,16000,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Utara,JC Cibitung,5000,7500,10000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Utara,Jatikarya,43500,65500,87000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Utara,SS Cikeas,35500,53500,71500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Utara,SS Narogong,29500,44000,58500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cimanggis-Cibitung Seksi 2B,KEPMEN PUPR Nomor 1627/KPTS/M/2024,9 Juli 2024,tertutup,SS Setu Utara,SS Setu Selatan,16000,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Cinere-Jagorawi,KEPMEN PUPR Nomor 1916/KPTS/M/2023,18 Desember 2023,tertutup,SS Cimanggis,Cinere,15000,23000,30500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Depok-Antasari,KEPMEN PUPR Nomor 326/KPTS/M/2023,3 Maret 2023,terbuka,Antasari-Brigif-Sawangan,Antasari-Brigif-Sawangan,13500,20000,27000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,JORR NON S,KEPMEN PUPR Nomor 1604/KPTS/M/2023,16 November 2023,tertutup,Rorotan,Kebon Bawang,17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,JORR S,KEPMEN PUPR Nomor 1604/KPTS/M/2023,16 November 2023,tertutup,Pondok Pinang,Taman Mini,17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,JORR W1 (Kebon Jeruk-Penjaringan),KEPMEN PUPR Nomor 1604/KPTS/M/2023,16 November 2023,tertutup,Kebon Jeruk,Penjaringan,17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,JORR W2 Utara (Kebon Jeruk-Ulujami),KEPMEN PUPR Nomor 1604/KPTS/M/2023,16 November 2023,tertutup,Kebon Jeruk,Ulujami,17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Jakarta-Bogor-Ciawi,KEPMEN PUPR Nomor 854/KPTS/M/2023,31 Juli 2023,tertutup,Jakarta,Ciawi,7500,12000,17000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Kunciran-Serpong,KEPMEN PUPR Nomor 466/KPTS/M/2025,30 April 2025,tertutup,JC Kunciran,JC Serpong,21500,32500,43000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Kunciran-Serpong,KEPMEN PUPR Nomor 466/KPTS/M/2025,30 April 2025,tertutup,JC Kunciran,SS Parigi,13000,19500,26000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Kunciran-Serpong,KEPMEN PUPR Nomor 466/KPTS/M/2025,30 April 2025,tertutup,JC Serpong,JC Kunciran,21500,32500,43000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Kunciran-Serpong,KEPMEN PUPR Nomor 466/KPTS/M/2025,30 April 2025,tertutup,JC Serpong,SS Parigi,8500,13000,17000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Kunciran-Serpong,KEPMEN PUPR Nomor 466/KPTS/M/2025,30 April 2025,tertutup,SS Parigi,JC Kunciran,13000,19500,26000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Kunciran-Serpong,KEPMEN PUPR Nomor 466/KPTS/M/2025,30 April 2025,tertutup,SS Parigi,JC Serpong,8500,13000,17000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Pondok Aren-Bintaro Viaduct-Ulujami,KEPMEN PUPR Nomor 1604/KPTS/M/2023,16 November 2023,tertutup,Pondok Aren,Ulujami,17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Pondok Aren-Serpong,KEPMEN PUPR Nomor 2149/KPTS/M/2024,27 Agustus 2024,tertutup,Pondok Aren,Serpong,9500,14000,18500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Prof.Dr.Ir.Soedijatmo,KEPMEN PU Nomor 1325/KPTS/M/2025,25 November 2025,terbuka,Prof.Dr.Ir.Soedijatmo,Prof.Dr.Ir.Soedijatmo,8500,11500,12500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Jabodetabek,Serpong-Balaraja Seksi 1 (Serpong-SS Legok),KEPMEN PUPR Nomor 2808/KPTS/M/2024,17 Oktober 2024,tertutup,SS CBD,SS Legok,7000,11000,14500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Jabodetabek,Serpong-Balaraja Seksi 1 (Serpong-SS Legok),KEPMEN PUPR Nomor 2808/KPTS/M/2024,17 Oktober 2024,tertutup,Serpong,SS CBD,6000,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Serpong-Cinere Seksi 1 dan 2,KEPMEN PUPR Nomor 254/KPTS/M2024,2 Februari 2024,tertutup,Cinere,Junction Serpong,18500,28000,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Serpong-Cinere Seksi 1 dan 2,KEPMEN PUPR Nomor 254/KPTS/M2024,2 Februari 2024,tertutup,Cinere,Pamulang,6500,10000,13500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Jabodetabek,Serpong-Cinere Seksi 1 dan 2,KEPMEN PUPR Nomor 254/KPTS/M2024,2 Februari 2024,tertutup,Junction Serpong,Cinere,18500,28000,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Serpong-Cinere Seksi 1 dan 2,KEPMEN PUPR Nomor 254/KPTS/M2024,2 Februari 2024,tertutup,Junction Serpong,Pamulang,12000,18000,24000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Serpong-Cinere Seksi 1 dan 2,KEPMEN PUPR Nomor 254/KPTS/M2024,2 Februari 2024,tertutup,Pamulang,Cinere,6500,10000,13500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Jabodetabek,Serpong-Cinere Seksi 1 dan 2,KEPMEN PUPR Nomor 254/KPTS/M2024,2 Februari 2024,tertutup,Pamulang,Junction Serpong,12000,18000,24000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Jabodetabek.pdf
+Non Trans,Ciawi-Sukabumi,KEPMEN PUPR Nomor 1661/KPTS/M/2024,12 Juli 2024,tertutup,Ciawi,SS Cigombong,19000,28000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Ciawi-Sukabumi,KEPMEN PUPR Nomor 1661/KPTS/M/2024,12 Juli 2024,tertutup,SS Ciawi,Ciawi,2500,3500,4500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Ciawi-Sukabumi,KEPMEN PUPR Nomor 1661/KPTS/M/2024,12 Juli 2024,tertutup,SS Cibadak,SS Cigombong,17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Ciawi-Sukabumi,KEPMEN PUPR Nomor 1661/KPTS/M/2024,12 Juli 2024,tertutup,SS Cigombong,SS Cibadak,17000,25000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,Jatiluhur,SS Dawuan,14500,24500,35500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,Jatiluhur,SS Padalarang,30500,51500,74500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,Jatiluhur,Sadang,6500,11000,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,SS Dawuan,Jatiluhur,14500,24500,35500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,SS Dawuan,SS Padalarang,45000,76000,110000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,SS Dawuan,Sadang,8000,13500,19500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,SS Padalarang,Cikamuning,4000,7000,10000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,SS Padalarang,Jatiluhur,30500,51500,74500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,SS Padalarang,SS Dawuan,45000,76000,110000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,SS Padalarang,Sadang,37000,62500,90500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,Sadang,Jatiluhur,6500,11000,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,Sadang,SS Dawuan,8000,13500,19500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Cikampek-Padalarang,KEPMEN PUPR Nomor 496/KPTS/M/2023,2 Mei 2023,tertutup,Sadang,SS Padalarang,37000,62500,90500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Cileunyi,Cimalaka,41500,62000,83000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Cileunyi,Jatinangor,7500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Cileunyi,Pamulihan,14500,22000,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Cileunyi,Sumedang,36500,54500,72500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Cimalaka,Cileunyi,41500,62000,83000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Cimalaka,Pamulihan,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Cimalaka,Sumedang,5000,8000,10500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Jatinangor,Cileunyi,7500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Pamulihan,Cileunyi,14500,22000,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Pamulihan,Cimalaka,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Pamulihan,Sumedang,22000,32500,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Sumedang,Cileunyi,36500,54500,72500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Sumedang,Cimalaka,5000,8000,10500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 1,2,3",KEPMEN PUPR Nomor 312/KPTS/M/2023,27 Februari 2023,tertutup,Sumedang,Pamulihan,22000,32500,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cileunyi,Cisumdawu Jaya,71000,106500,142000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cileunyi,Cisumdawu Utama,78500,118000,157500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cileunyi,Paseh,52000,78000,104000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cimalaka,Cisumdawu Jaya,29500,44000,59000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cimalaka,Cisumdawu Utama,37000,56000,74500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cimalaka,Paseh,10500,15500,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Jaya,Cileunyi,71000,106500,142000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Jaya,Cimalaka,29500,44000,59000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Jaya,Cisumdawu Utama,7500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Jaya,Pamulihan,56500,84500,113000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Jaya,Paseh,19000,28500,38000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Jaya,Sumedang,34500,52000,69500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Utama,Cileunyi,78500,118000,157500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Utama,Cimalaka,37000,56000,74500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Utama,Cisumdawu Jaya,7500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Utama,Pamulihan,64000,96000,128500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Utama,Paseh,27000,40000,53500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Cisumdawu Utama,Sumedang,42500,63500,85000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Pamulihan,Cisumdawu Jaya,56500,84500,113000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Pamulihan,Cisumdawu Utama,64000,96000,128500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Pamulihan,Paseh,37500,56000,75000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Paseh,Cileunyi,52000,78000,104000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Paseh,Cimalaka,10500,15500,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Paseh,Cisumdawu Jaya,19000,28500,38000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Paseh,Cisumdawu Utama,27000,40000,53500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Paseh,Pamulihan,37500,56000,75000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Paseh,Sumedang,15500,23500,31500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Sumedang,Cisumdawu Jaya,34500,52000,69500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Sumedang,Cisumdawu Utama,42500,63500,85000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,"Cileunyi-Sumedang-Dawuan 4,5,6",KEPMEN PUPR Nomor 959/KPTS/M/2023,11 Agustus 2023,tertutup,Sumedang,Paseh,15500,23500,31500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Belahanrejo,Bunder,31500,47500,63000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Belahanrejo,Cerme,21500,32500,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Belahanrejo,Lebani Gresik,16000,24000,32000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Belahanrejo,SS Wringinanom,10500,15500,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Bunder,Belahanrejo,31500,47500,63000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Bunder,Cerme,10000,15000,20000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Bunder,Lebani Gresik,47500,71500,95500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Bunder,SS Wringinanom,42000,63000,84000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Cerme,Belahanrejo,21500,32500,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Cerme,Bunder,10000,15000,20000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Cerme,Lebani Gresik,38000,56500,75500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Cerme,SS Wringinanom,32000,48000,64000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Lebani Gresik,Belahanrejo,16000,24000,32000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Lebani Gresik,Bunder,47500,71500,95500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Lebani Gresik,Cerme,38000,56500,75500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,Lebani Gresik,SS Wringinanom,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,SS Wringinanom,Belahanrejo,10500,15500,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,SS Wringinanom,Bunder,42000,63000,84000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,SS Wringinanom,Cerme,32000,48000,64000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Krian–Legundi–Bunder–Manyar (Krian–Legundi–Bunder),KEPMEN PUPR Nomor 330/KPTS/M/2025,4 Maret 2025,tertutup,SS Wringinanom,Lebani Gresik,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,Buah Batu,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,Cileunyi,8000,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,Kopo,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,Moh. Toha,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,Padalarang,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,Pasir Koja,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,Pasteur,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Baros,SS Padalarang,2500,4000,5500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,Baros,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,Cileunyi,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,Kopo,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,Moh. Toha,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,Padalarang,6500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,Pasir Koja,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,Pasteur,6500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Buah Batu,SS Padalarang,6500,11000,15000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,Baros,8000,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,Buah Batu,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,Kopo,6500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,Moh. Toha,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,Padalarang,10500,18500,25000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,Pasir Koja,8000,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,Pasteur,10500,18500,25000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Cileunyi,SS Padalarang,10500,18500,24500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,Baros,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,Buah Batu,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,Cileunyi,6500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,Moh. Toha,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,Padalarang,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,Pasir Koja,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,Pasteur,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Kopo,SS Padalarang,5000,8500,12000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,Baros,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,Buah Batu,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,Cileunyi,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,Kopo,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,Padalarang,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,Pasir Koja,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,Pasteur,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Moh. Toha,SS Padalarang,5000,9000,12000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,Baros,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,Buah Batu,6500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,Cileunyi,10500,18500,25000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,Kopo,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,Moh. Toha,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,PasirKoja,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,Pasteur,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Padalarang,SS Padalarang,500,1000,1500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,Baros,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,Buah Batu,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,Cileunyi,8000,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,Kopo,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,Moh. Toha,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,Padalarang,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,Pasteur,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasir Koja,SS Padalarang,5000,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,Baros,2500,4500,6500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,Buah Batu,6500,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,Cileunyi,10500,18500,25000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,Kopo,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,Moh. Toha,5500,9000,12500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,Padalarang,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,Pasir Koja,4000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,Pasteur,SS Padalarang,3500,6500,9000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,Baros,2500,4000,5500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,Buah Batu,6500,11000,15000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,Cileunyi,10500,18000,24500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,Kopo,5000,8500,12000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,Moh. Toha,5000,9000,12000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,Padalarang,500,1000,1500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,PasirKoja,5000,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Padalarang-Cileunyi,KEPMEN PUPR Nomor 533/KPTS/M/2023,17 Mei 2023,tertutup,SS Padalarang,Pasteur,3500,6500,9000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Lawang,Malang,15000,22500,29500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Lawang,Pakis,12000,17500,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Lawang,Pandaan,23500,35000,46500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Lawang,Purwodadi,8000,12000,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Lawang,Singosari,7000,10500,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Malang,Lawang,15000,22500,29500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Malang,Pakis,3000,4500,6000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Malang,Pandaan,38000,57500,76500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Malang,Purwodadi,23000,34500,45500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Malang,Singosari,8000,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pakis,Lawang,12000,17500,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pakis,Malang,3000,4500,6000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pakis,Pandaan,35000,52500,70500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pakis,Purwodadi,20000,29500,39500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pakis,Singosari,4500,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pandaan,Lawang,23500,35000,46500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pandaan,Malang,38000,57500,76500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pandaan,Pakis,35000,52500,70500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pandaan,Purwodadi,15500,23000,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Pandaan,Singosari,30500,45500,61000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Purwodadi,Lawang,8000,12000,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Purwodadi,Malang,23000,34500,45500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Purwodadi,Pakis,20000,29500,39500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Purwodadi,Pandaan,15500,23000,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Purwodadi,Singosari,15000,22500,30000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Singosari,Lawang,7000,10500,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Singosari,Malang,8000,11500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Singosari,Pakis,4500,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Singosari,Pandaan,30500,45500,61000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Pandaan-Malang,KEPMEN PUPR Nomor 602/KPTS/M/2025,4 Juni 2025,tertutup,Singosari,Purwodadi,15000,22500,30000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Semarang-Demak Seksi 2 (Sayung-Demak),KEPMEN PUPR Nomor 263/KPTS/M/2023,13 Februari 2023,tertutup,Demak,Sayung,19000,28500,38500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Semarang-Demak Seksi 2 (Sayung-Demak),KEPMEN PUPR Nomor 263/KPTS/M/2023,13 Februari 2023,tertutup,Sayung,Demak,19000,28500,38500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,Junction Walatanka,SS Cikeusal,13000,19000,25500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,Junction Walatanka,SS Rangkasbitung,38000,56500,75500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,Junction Walatanka,SS Tanjung Teja,25000,37500,50000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Cikeusal,Junction Walatanka,13000,19000,25500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Cikeusal,SS Rangkasbitung,25000,37500,50000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Cikeusal,SS Tanjung Teja,12000,18500,24500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Rangkasbitung,Junction Walatanka,38000,56500,75500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Rangkasbitung,SS Cikeusal,25000,37500,50000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Rangkasbitung,SS Tanjung Teja,12500,19000,25500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Tanjung Teja,Junction Walatanka,25000,37500,50000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Tanjung Teja,SS Cikeusal,12000,18500,24500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Serang-Panimbang Seksi 1 (Serang-Rangkasbitung),KEPMEN PUPR Nomor 1427/KPTS/M/2021,16 November 2021,tertutup,SS Tanjung Teja,SS Rangkasbitung,12500,19000,25500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Simpang Susun Waru-Bandara Juanda,KEPMEN PUPR Nomor 642/ KPTS/M/2025,25 Juni 2025,tertutup,SS Waru,Bandara Juanda,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Banyudono,Prambanan,53500,80500,107000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Kartasura,Prambanan,57000,85500,114500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Klaten,Prambanan,15000,22500,30000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Polanharjo,Prambanan,32500,49000,65000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Prambanan,Banyudono,53500,80500,107000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Prambanan,Kartasura,57000,85500,114500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Prambanan,Klaten,15000,22500,30000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo - Yogyakarta - NYIA Kulon Progo Seksi 1 (Kartasura - Purwomartani) Segmen Klaten-Prambanan,KEPMEN PUPR Nomor 683/KPTS/M/2025,22 Juli 2025,tertutup,Prambanan,Polanharjo,32500,49000,65000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Banyudono,Kartasura,3500,5500,7500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Banyudono,Klaten,38500,58000,77500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Banyudono,Polanharjo,21000,31500,42000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Kartasura,Banyudono,3500,5500,7500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Kartasura,Klaten,42500,63500,84500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Kartasura,Polanharjo,24500,37000,49000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Klaten,Banyudono,38500,58000,77500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Klaten,Kartasura,42500,63500,84500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Klaten,Polanharjo,17500,26500,35500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Polanharjo,Banyudono,21000,31500,42000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Polanharjo,Kartasura,24500,37000,49000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Solo-Yogyakarta-NYIA Kulon Progo,KEPMEN PUPR Nomor 2816/KPTS/M/2024,18 Oktober 2024,tertutup,Polanharjo,Klaten,17500,26500,35500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Soreang-Pasir Koja,KEPMEN PUPR Nomor 43/ KPTS/M/2025,16 Januari 2025,tertutup,Soreang,Pasir Koja,8500,13500,17000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Dupak,Kebomas,21500,32500,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Dupak,Manyar,27500,41000,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Dupak,Romo Kalisari,12000,17500,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Dupak,Tandes,4500,7000,9000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Kebomas,Dupak,21500,32500,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Kebomas,Manyar,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Kebomas,Romo Kalisari,10000,15000,20000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Kebomas,Tandes,17000,25500,34000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Manyar,Dupak,27500,41000,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Manyar,Kebomas,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Manyar,Romo Kalisari,15500,23500,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Manyar,Tandes,22500,34000,45500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Romo Kalisari,Dupak,12000,17500,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Romo Kalisari,Kebomas,10000,15000,20000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Romo Kalisari,Manyar,15500,23500,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Romo Kalisari,Tandes,7000,10500,14500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Tandes,Dupak,4500,7000,9000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Tandes,Kebomas,17000,25500,34000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Tandes,Manyar,22500,34000,45500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Non Trans,Surabaya-Gresik,KEPMEN PUPR Nomor 149/KPTS/M/2024,19 Januari 2024,tertutup,Tandes,Romo Kalisari,7000,10500,14500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-Non-Trans.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,Cikopo,75500,125000,156500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,JC Dawuan,14500,24000,30500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,Kalijati,45000,74500,93500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,Kertajati,21500,35500,44500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,Kertajati Utama,21500,35500,44500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,Palimanan,56500,93000,116500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,Subang,32500,53500,67000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikedung,Sumberjaya,39500,65000,82000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,Cikedung,75500,125000,156500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,JC Dawuan,90500,149000,187000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,Kalijati,30500,50500,63500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,Kertajati,97000,160000,201000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,Kertajati Utama,97000,160000,201000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,Palimanan,132000,217500,273000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,Subang,43000,71500,89500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Cikopo,Sumberjaya,115000,190000,238500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Cikedung,14500,24000,30500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Cikopo,90500,149000,187000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Kalijati,60000,98500,123500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Kertajati,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Kertajati Utama,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Palimanan,41500,68500,86000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Subang,47000,77500,97500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,JC Dawuan,Sumberjaya,25000,41000,51500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,Cikedung,45000,74500,93500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,Cikopo,30500,50500,63500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,JC Dawuan,60000,98500,123500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,Kertajati,66500,110000,137500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,Kertajati Utama,66500,110000,137500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,Palimanan,101500,167000,210000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,Subang,12500,21000,26000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kalijati,Sumberjaya,84500,139500,175000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati,Cikedung,21500,35500,44500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati,Cikopo,97000,160000,201000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati,JC Dawuan,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati,Kalijati,66500,110000,137500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati,Palimanan,35000,57500,72000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati,Subang,54000,89000,111500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati,Sumberjaya,18000,30000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati Utama,Cikedung,21500,35500,44500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati Utama,Cikopo,97000,160000,201000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati Utama,JC Dawuan,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati Utama,Kalijati,66500,110000,137500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati Utama,Palimanan,35000,57500,72000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati Utama,Subang,54000,89000,111500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Kertajati Utama,Sumberjaya,18000,30000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,Cikedung,56500,93000,116500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,Cikopo,132000,217500,273000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,JC Dawuan,41500,68500,86000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,Kalijati,101500,167000,210000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,Kertajati,35000,57500,72000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,Kertajati Utama,35000,57500,72000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,Subang,88500,146500,183500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Palimanan,Sumberjaya,16500,27500,34500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,Cikedung,32500,53500,67000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,Cikopo,43000,71500,89500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,JC Dawuan,47000,77500,97500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,Kalijati,12500,21000,26000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,Kertajati,54000,89000,111500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,Kertajati Utama,54000,89000,111500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,Palimanan,88500,146500,183500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Subang,Sumberjaya,72000,118500,149000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,Cikedung,39500,65000,82000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,Cikopo,115000,190000,238500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,JC Dawuan,25000,41000,51500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,Kalijati,84500,139500,175000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,Kertajati,18000,30000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,Kertajati Utama,18000,30000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,Palimanan,16500,27500,34500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Cikampek-Palimanan,KEPMEN PUPR Nomor 2789/KPTS/M/2022,15 Oktober 2024,tertutup,Sumberjaya,Subang,72000,118500,149000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Gempol IC,Gempol JC,3500,5500,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Gempol IC,Pandaan,14500,23500,29500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Gempol IC,Pandaan IC,12500,21000,26500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Gempol JC,Gempol IC,3500,5500,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Gempol JC,Pandaan,11000,18000,23000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Gempol JC,Pandaan IC,9500,15500,19500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Pandaan,Gempol IC,14500,23500,29500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Pandaan,Gempol JC,11000,18000,23000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Pandaan,Pandaan IC,1500,2500,3500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Pandaan IC,Gempol IC,12500,21000,26500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Pandaan IC,Gempol JC,9500,15500,19500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pandaan,KEPMEN PUPR Nomor 768/KPTS/M/2024,02 April 2024,tertutup,Pandaan IC,Pandaan,1500,2500,3500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Bangil,Gempol,9500,14000,18500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Bangil,Grati,37500,56000,74500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Bangil,Pasuruan,18500,28000,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Bangil,Rembang,9500,14500,19500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Gempol,Bangil,9500,14000,18500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Gempol,Grati,46500,70000,93000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Gempol,Pasuruan,28000,42000,56000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Gempol,Rembang,19000,28500,38000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Grati,Bangil,37500,56000,74500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Grati,Gempol,46500,70000,93000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Grati,Pasuruan,18500,28000,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Grati,Rembang,27500,41500,55000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Pasuruan,Bangil,18500,28000,37500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Pasuruan,Gempol,28000,42000,56000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Pasuruan,Grati,18500,28000,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Pasuruan,Rembang,9000,13500,18000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Rembang,Bangil,9500,14500,19500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Rembang,Gempol,19000,28500,38000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Rembang,Grati,27500,41500,55000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Gempol-Pasuruan,KEPMEN PUPR Nomor 1080/KPTS/M/2023,25 Agustus 2023,tertutup,Rembang,Pasuruan,9000,13500,18000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Bekasi Barat,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Bekasi Timur,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Cibatu,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Cibitung,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Cikampek,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Cikarang Barat,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Cikarang Timur,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Cikunir,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Dawuan,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Kalihurip,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Karawang Barat,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Karawang Timur,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Pondok Gede Barat/Timur,5500,8000,11000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Cikampek dan Jakarta -Cikampek II Elevated,KEPMEN PUPR Nomor 250/KPTS/M/2024,2 Februari 2024,tertutup,Jakarta IC,Tambun,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jakarta-Tangerang,KEPMEN PUPR Nomor 2692/KPTS/M/2024,3 Oktober 2024,tertutup,SS Tomang,Cikupa,8500,12500,16500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Bekasi Barat,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Bekasi Timur,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Cibatu,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Cibitung,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Cikampek,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Cikarang Barat,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Cikarang Timur,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Cikunir,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Dawuan,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Jakarta IC,5500,8000,11000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Kalihurip,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Karawang Barat,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Karawang Timur,27000,40500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Pondok Gede Barat/Timur,5500,8000,11000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek,KEPMEN PUPR Nomor 1229/KPTS/M/2024,31 Mei 2024,tertutup,Halim 3,Tambun,9500,14000,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kanci-Pejagan,KEPMEN PUPR Nomor 909/KPTS/M/2023,7 Agustus 2023,tertutup,Ciledug,Pejagan,15000,22000,29500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kanci-Pejagan,KEPMEN PUPR Nomor 909/KPTS/M/2023,7 Agustus 2023,tertutup,Kanci,Ciledug,17000,25500,34000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kanci-Pejagan,KEPMEN PUPR Nomor 909/KPTS/M/2023,7 Agustus 2023,tertutup,Kanci,Pejagan,31500,47500,63500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Bandar,Batas Barat,1000,2000,2500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Bandar,Jombang,20000,33500,40000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Bandar,Mojokerto,54000,90000,108000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Bandar,Mojokerto Barat,47000,79000,94000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Batas Barat,Bandar,1000,2000,2500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Batas Barat,Jombang,21000,35500,42500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Batas Barat,Mojokerto,55000,92500,110000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Batas Barat,Mojokerto Barat,48500,81000,96500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Jombang,Bandar,20000,33500,40000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Jombang,Batas Barat,21000,35500,42500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Jombang,Mojokerto,34000,56500,68000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Jombang,Mojokerto Barat,27000,45500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto,Bandar,54000,90000,108000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto,Batas Barat,55000,92500,110000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto,Jombang,34000,56500,68000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto,Mojokerto Barat,7000,11500,13500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto Barat,Bandar,47000,79000,94000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto Barat,Batas Barat,48500,81000,96500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto Barat,Jombang,27000,45500,54000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Kertosono-Mojokerto,KEPMEN PUPR Nomor 252/KPTS/M/2024,2 Februari 2024,tertutup,Mojokerto Barat,Mojokerto,7000,11500,13500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Caruban,IC Madiun,10000,14500,19500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Caruban,IC Nganjuk,41000,61000,81500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Caruban,Kertosono,69000,103500,138000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Caruban,Klitik,33000,49500,66000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Madiun,IC Caruban,10000,14500,19500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Madiun,IC Nganjuk,50500,76000,101000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Madiun,Kertosono,79000,118500,157500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Madiun,Klitik,23000,34500,46500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Nganjuk,IC Caruban,41000,61000,81500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Nganjuk,IC Madiun,50500,76000,101000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Nganjuk,Kertosono,28500,42500,56500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,IC Nganjuk,Klitik,74000,110500,147500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Kertosono,IC Caruban,69000,103500,138000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Kertosono,IC Madiun,79000,118500,157500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Kertosono,IC Nganjuk,28500,42500,56500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Kertosono,Klitik,102000,153000,204000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,IC Caruban,33000,49500,66000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,IC Madiun,23000,34500,46500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,IC Nganjuk,74000,110500,147500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Ngawi-Kertosono,KEPMEN PU Nomor 1441/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Kertosono,102000,153000,204000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Ciperna,Kanci,6500,9500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Ciperna,Palimanan,7000,10000,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Ciperna,Plumbon,4000,5500,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Kanci,Ciperna,6500,9500,15500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Kanci,Palimanan,13500,19500,32000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Kanci,Plumbon,10500,15000,25000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Palimanan,Ciperna,7000,10000,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Palimanan,Kanci,13500,19500,32000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Palimanan,Plumbon,3000,4000,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Plumbon,Ciperna,4000,5500,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Plumbon,Kanci,10500,15000,25000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Palimanan-Kanci,KEPMEN PUPR Nomor 755/KPTS/M/2023,12 Juli 2023,tertutup,Plumbon,Palimanan,3000,4000,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Grati,Gending,52000,78000,104000,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Grati,Probolinggo Barat,26000,39000,52500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Grati,Probolinggo Timur,40000,60000,80000,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Grati,Tongas,17000,25500,34000,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Probolinggo Barat,Gending,26000,39000,51500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Probolinggo Barat,Grati,26000,39000,52500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Probolinggo Barat,Probolinggo Timur,14000,21000,28000,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Probolinggo Barat,Tongas,9000,14000,18500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Tongas,Gending,35000,52500,70000,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Tongas,Grati,17000,25500,34000,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Tongas,Probolinggo Barat,9000,14000,18500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pasuruan-Probolinggo Seksi I - IVA,KEPMEN PUPR Nomor 418/KPTS/M/2024,19 Februari 2024,tertutup,Tongas,Probolinggo Timur,23000,34500,46500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Barat,Brebes Timur,7000,10500,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Barat,Pejagan,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Barat,Pemalang,50000,74500,99500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Barat,Tegal Timur,19000,28500,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Timur,Brebes Barat,7000,10500,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Timur,Pejagan,23000,35000,46500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Timur,Pemalang,43000,64500,86000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Brebes Timur,Tegal Timur,12000,18000,24000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pejagan,Brebes Barat,16500,24500,32500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pejagan,Brebes Timur,23000,35000,46500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pejagan,Pemalang,66000,99000,132000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pejagan,Tegal Timur,35000,53000,70500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pemalang,Brebes Barat,50000,74500,99500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pemalang,Brebes Timur,43000,64500,86000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pemalang,Pejagan,66000,99000,132000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Pemalang,Tegal Timur,31000,46500,62000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Tegal Timur,Brebes Barat,19000,28500,37500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Tegal Timur,Brebes Timur,12000,18000,24000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Tegal Timur,Pejagan,35000,53000,70500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pejagan-Pemalang,KEPMEN PUPR Nomor 1835/KPTS/M/2023,13 Desember 2023,tertutup,Tegal Timur,Pemalang,31000,46500,62000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pasekaran,Pemalang/Sewaka,53000,79500,106000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pasekaran,SS Batang,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pasekaran,SS Pekalongan,20000,30500,40500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pasekaran,SS Pemalang,46000,68500,91500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pemalang/Sewaka,Pasekaran,53000,79500,106000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pemalang/Sewaka,SS Batang,47500,71000,95000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pemalang/Sewaka,SS Pekalongan,33000,49500,66000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,Pemalang/Sewaka,SS Pemalang,7500,11000,14500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Batang,Pasekaran,5500,8500,11500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Batang,Pemalang/Sewaka,47500,71000,95000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Batang,SS Pekalongan,14500,21500,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Batang,SS Pemalang,40000,60000,80000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pekalongan,Pasekaran,20000,30500,40500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pekalongan,Pemalang/Sewaka,33000,49500,66000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pekalongan,SS Batang,14500,21500,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pekalongan,SS Pemalang,25500,38500,51000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pemalang,Pasekaran,46000,68500,91500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pemalang,Pemalang/Sewaka,7500,11000,14500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pemalang,SS Batang,40000,60000,80000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Pemalang-Batang,KEPMEN PUPR Nomor 1517/KPTS/M/2023,25 Oktober 2023,tertutup,SS Pemalang,SS Pekalongan,25500,38500,51000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,SS KIT Batang pada Jalan Tol Batang-Semarang,KEPMEN PUPR Nomor 1321/KPTS/M/2024,19 Juni 2024,tertutup,KIT Batang,Batang/Pasekaran,39500,59000,79000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,SS KIT Batang pada Jalan Tol Batang-Semarang,KEPMEN PUPR Nomor 1321/KPTS/M/2024,19 Juni 2024,tertutup,KIT Batang,Kaliwungu,55500,83500,111000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,SS KIT Batang pada Jalan Tol Batang-Semarang,KEPMEN PUPR Nomor 1321/KPTS/M/2024,19 Juni 2024,tertutup,KIT Batang,Kandeman,34500,52000,69500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,SS KIT Batang pada Jalan Tol Batang-Semarang,KEPMEN PUPR Nomor 1321/KPTS/M/2024,19 Juni 2024,tertutup,KIT Batang,Kendal,35500,53000,71000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,SS KIT Batang pada Jalan Tol Batang-Semarang,KEPMEN PUPR Nomor 1321/KPTS/M/2024,19 Juni 2024,tertutup,KIT Batang,Semarang/Kali Kangkung,72000,108000,144000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,SS KIT Batang pada Jalan Tol Batang-Semarang,KEPMEN PUPR Nomor 1321/KPTS/M/2024,19 Juni 2024,tertutup,KIT Batang,Weleri,19000,28500,38000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,"Semarang Seksi A,B,C",KEPMEN PUPR Nomor 399/KPTS/M/2025,26 Maret 2025,terbuka,"Jalan Tol Semarang Seksi A,B,C","Jalan Tol Semarang Seksi A,B,C",6000,8500,11500,himpunan awal tim; belum ada di PDF BPJT Nov 2025
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Batang/Pasekaran,Kaliwungu,95000,142500,190000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Batang/Pasekaran,Kandeman,5000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Batang/Pasekaran,Kendal,75000,112500,150000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Batang/Pasekaran,Semarang/Kali Kangkung,111500,167500,223000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Batang/Pasekaran,Weleri,58500,88000,117000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kaliwungu,Batang/Pasekaran,95000,142500,190000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kaliwungu,Kandeman,90000,135500,180500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kaliwungu,Kendal,20000,30000,40000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kaliwungu,Semarang/Kali Kangkung,16500,25000,33000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kaliwungu,Weleri,36500,54500,73000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kandeman,Batang/Pasekaran,5000,7000,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kandeman,Kendal,70000,105000,140500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kandeman,Semarang/Kali Kangkung,107000,160000,213500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kandeman,Weleri,54000,80500,107500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kendal,Batang/Pasekaran,75000,112500,150000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kendal,Kaliwungu,20000,30000,40000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kendal,Kandeman,70000,105000,140500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kendal,Semarang/Kali Kangkung,36500,55000,73500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Kendal,Weleri,16500,24500,33000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Semarang/Kali Kangkung,Batang/Pasekaran,111500,167500,223000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Semarang/Kali Kangkung,Kaliwungu,16500,25000,33000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Semarang/Kali Kangkung,Kandeman,107000,160000,213500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Semarang/Kali Kangkung,Kendal,36500,55000,73500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Semarang/Kali Kangkung,Weleri,53000,79500,106000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Weleri,Batang/Pasekaran,58500,88000,117000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Weleri,Kaliwungu,36500,54500,73000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Weleri,Kandeman,54000,80500,107500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Weleri,Kendal,16500,24500,33000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Batang,KEPMEN PUPR Nomor 1155/KPTS/M/2023,15 September 2023,tertutup,Weleri,Semarang/Kali Kangkung,53000,79500,106000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Banyumanik,Bawen,22000,33000,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Banyumanik,Boyolali,80000,120500,160500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Banyumanik,Kartasura,92000,138500,184500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Banyumanik,Salatiga,47000,70000,93500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Banyumanik,Ungaran,10500,15500,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Bawen,Banyumanik,25000,37500,50000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Bawen,Boyolali,22000,33000,43500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Bawen,Kartasura,11500,17000,23000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Bawen,Salatiga,70500,105500,140500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Bawen,Ungaran,58500,87500,116500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Boyolali,Banyumanik,12000,18000,24000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Boyolali,Bawen,70000,104500,139500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Boyolali,Kartasura,33500,50000,67000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Boyolali,Salatiga,58500,87500,116500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Boyolali,Ungaran,80000,120500,160500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Kartasura,Banyumanik,92000,138500,184500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Kartasura,Bawen,70500,105500,140500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Kartasura,Boyolali,12000,18000,24000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Kartasura,Salatiga,45500,68000,91000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Kartasura,Ungaran,81500,122500,163500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Salatiga,Banyumanik,33500,50000,67000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Salatiga,Bawen,47000,70000,93500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Salatiga,Boyolali,36500,54500,72500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Salatiga,Kartasura,25000,37500,50000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Salatiga,Ungaran,45500,68000,91000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Ungaran,Banyumanik,11500,17000,23000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Ungaran,Bawen,36500,54500,72500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Ungaran,Boyolali,81500,122500,163500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Ungaran,Kartasura,10500,15500,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Semarang-Solo,KEPMEN PUPR Nomor 1541/KPTS/M/2023,3 Novemeber 2023,tertutup,Ungaran,Salatiga,70000,104500,139500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Colomadu,8500,13000,17500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Karanganyar,29500,44500,59500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Kartasura,10000,15000,20000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Klitik,153500,230500,307500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Ngawi,146500,219500,293000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Purwodadi,16500,24500,32500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Solo/Ngemplak,11500,17500,23000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Sragen,54500,82000,109000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Bandara Adi Sumarmo,Sragen Timur,84500,126500,169000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Bandara Adi Soemarmo,8500,13000,17500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Karanganyar,38500,57500,77000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Kartasura,1000,2000,2500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Klitik,162500,243500,324500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Ngawi,155000,233000,310500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Purwodadi,25000,37500,50000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Solo/Ngemplak,20500,30500,40500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Sragen,63500,95000,126500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Colomadu,Sragen Timur,93000,139500,186000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Bandara Adi Soemarmo,29500,44500,59500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Colomadu,38500,57500,77000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Kartasura,39500,59500,79000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Klitik,124000,186000,248000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Ngawi,117000,175000,233500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Purwodadi,13500,20000,27000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Solo/Ngemplak,18000,27000,36000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Sragen,25000,37500,49500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Karanganyar,Sragen Timur,54500,82000,109500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Bandara Adi Soemarmo,10000,15000,20000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Colomadu,1000,2000,2500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Karanganyar,39500,59500,79000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Klitik,163500,245500,327000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Ngawi,156500,234500,312500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Purwodadi,26000,39000,52500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Solo/Ngemplak,21500,32000,43000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Sragen,64500,96500,129000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Kartasura,Sragen Timur,94500,141500,188500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Bandara Adi Soemarmo,153500,230500,307500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Colomadu,162500,243500,324500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Karanganyar,124000,186000,248000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Kartasura,163500,245500,327000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Ngawi,7000,11000,14500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Purwodadi,137500,206000,275000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Solo/Ngemplak,142000,213000,284000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Sragen,99000,148500,198000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Klitik,Sragen Timur,69500,104000,138500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Bandara Adi Soemarmo,146500,219500,293000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Colomadu,155000,233000,310500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Karanganyar,117000,175000,233500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Kartasura,156500,234500,312500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Klitik,7000,11000,14500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Purwodadi,130000,195500,260500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Solo/Ngemplak,135000,202500,270000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Sragen,92000,138000,184000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Ngawi,Sragen Timur,62000,93000,124000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Bandara Adi Soemarmo,16500,24500,32500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Colomadu,25000,37500,50000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Karanganyar,13500,20000,27000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Kartasura,26000,39000,52500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Klitik,137500,206000,275000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Ngawi,130000,195500,260500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Solo/Ngemplak,4500,7000,9500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Sragen,38500,57500,76500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Purwodadi,Sragen Timur,68000,102000,136500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Bandara Adi Soemarmo,11500,17500,23000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Colomadu,20500,30500,40500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Karanganyar,18000,27000,36000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Kartasura,21500,32000,43000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Klitik,142000,213000,284000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Ngawi,135000,202500,270000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Purwodadi,4500,7000,9500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Sragen,43000,64500,86000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Solo/Ngemplak,Sragen Timur,73000,109000,145000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Bandara Adi Soemarmo,54500,82000,109000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Colomadu,63500,95000,126500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Karanganyar,25000,37500,49500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Kartasura,64500,96500,129000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Klitik,99000,148500,198000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Ngawi,92000,138000,184000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Purwodadi,38500,57500,76500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Solo/Ngemplak,43000,64500,86000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen,Sragen Timur,30000,45000,59500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Bandara Adi Soemarmo,84500,126500,169000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Colomadu,93000,139500,186000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Karanganyar,54500,82000,109500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Kartasura,94500,141500,188500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Klitik,69500,104000,138500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Ngawi,62000,93000,124000,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Purwodadi,68000,102000,136500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Solo/Ngemplak,73000,109000,145500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Solo-Ngawi,KEPMEN PU Nomor 1442/KPTS/M/2025,8 Desember 2025,tertutup,Sragen Timur,Sragen,30000,45000,59500,himpunan awal tim; SK lebih baru daripada PDF BPJT Nov 2025
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Dupak,Waru,6000,9000,12000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Kejapanan,Gempol,3500,5000,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Porong,Kejapanan,6000,9000,12000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Porong,Sidoarjo,6500,9500,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Porong,Waru,10000,15500,20500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Sidoarjo,Porong,6500,9500,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Sidoarjo,Waru,6500,10500,13500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Waru,Porong,10000,15500,20500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Gempol,KEPMEN PUPR Nomor 1137/KPTS/M/2023,05 September 2024,tertutup,Waru,Sidoarjo,6500,10500,13500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Driyorejo,Krian,7500,12500,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Driyorejo,Mojokerto,28500,46500,70500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Driyorejo,WRR / Warugunung,6500,10500,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Driyorejo,Wringinanom Junction,13500,22000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Krian,Driyorejo,7500,12500,19000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Krian,Mojokerto,20500,34000,51000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Krian,WRR / Warugunung,14000,23500,35500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Krian,Wringinanom Junction,5500,9500,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Mojokerto,Driyorejo,28500,46500,70500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Mojokerto,Krian,20500,34000,51000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Mojokerto,WRR / Warugunung,35000,57000,86500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Mojokerto,Wringinanom Junction,15000,24500,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,WRR/Warugunung (Tertutup),Driyorejo,6500,10500,16000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,WRR/Warugunung (Tertutup),Krian,14000,23500,35500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,WRR/Warugunung (Tertutup),Mojokerto,35000,57000,86500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,WRR/Warugunung (Tertutup),Wringinanom Junction,20000,32500,49500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Waru (Terbuka),Sepanjang,3000,5000,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Waru (Terbuka),WRR/Warugunung,8500,14000,21000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Wringinanom Junction,Driyorejo,13500,22000,33500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Wringinanom Junction,Krian,5500,9500,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Wringinanom Junction,Mojokerto,15000,24500,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Surabaya-Mojokerto,KEPMEN PUPR Nomor 1306/KPTS/M/2024,19 Juni 2024,tertutup,Wringinanom Junction,WRR / Warugunung,20000,32500,49500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Balaraja Timur,3000,4500,6000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Cikande,11500,18000,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Cikupa,6500,10000,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Cilegon Barat,48500,76500,98500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Cilegon Timur,41500,65500,84500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Ciujung,18000,28500,36500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Merak,51500,81000,105000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,SS Walantaka,21500,34000,44000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Serang Barat,33500,52500,67500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Barat,Serang Timur,28500,45000,58000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Balaraja Barat,3000,4500,6000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Cikande,14500,22500,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Cikupa,3500,5500,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Cilegon Barat,51500,81000,104500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Cilegon Timur,44500,70000,90500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Ciujung,21000,33000,42500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Merak,54500,85500,110500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,SS Walantaka,24500,38500,49500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Serang Barat,36000,56500,73500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Balaraja Timur,Serang Timur,31500,49500,64000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Balaraja Barat,11500,18000,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Balaraja Timur,14500,22500,29000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Cikupa,18000,28000,36500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Cilegon Barat,37000,58000,75500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Cilegon Timur,30000,47500,61500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Ciujung,6500,10000,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Merak,40000,63000,81500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,SS Walantaka,10000,16000,20500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Serang Barat,21500,34000,44000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikande,Serang Timur,17000,27000,34500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Balaraja Barat,6500,10000,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Balaraja Timur,3500,5500,7000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Cikande,18000,28000,36500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Cilegon Barat,55000,86500,111500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Cilegon Timur,48000,75500,97500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Ciujung,24500,38000,49500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Merak,58000,91000,117500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,SS Walantaka,28000,44000,57000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Serang Barat,39500,62000,80500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cikupa,Serang Timur,35000,55000,71000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Balaraja Barat,48500,76500,98500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Balaraja Timur,51500,81000,104500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Cielgon Timur,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Cikande,37000,58000,75500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Cikupa,55000,86500,111500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Ciujung,30500,48000,62000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,SS Walantaka,27000,42500,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Serang Barat,15500,24000,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Barat,Serang Timur,20000,31500,40500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Balaraja Barat,41500,65500,84500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Balaraja Timur,44500,70000,90500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Cikande,30000,47500,61500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Cikupa,48000,75500,97500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Cilegon Barat,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Ciujung,23500,37000,48000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Merak,10000,15500,20000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,SS Walantaka,20000,31500,41000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Serang Barat,8500,13500,17000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Cilegon Timur,Serang Timur,13000,20500,26500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Balaraja Barat,18000,28500,36500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Balaraja Timur,21000,33000,42500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Cikande,6500,10000,13000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Cikupa,24500,38000,49500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Cilegon Barat,30500,48000,62000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Cilegon Timur,23500,37000,48000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Merak,33500,53000,68000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,SS Walantaka,3500,5500,7500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Serang Barat,15500,24000,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Ciujung,Serang Timur,10500,16500,21500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Balaraja Barat,51500,81000,105000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Balaraja Timur,54500,85500,110500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Cikande,40000,63000,81500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Cikupa,58000,91000,117500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Cilegon Timur,10000,15500,20000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Ciujung,33500,53000,68000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,SS Walantaka,30000,47000,61000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Serang Barat,18500,29000,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Merak,Serang Timur,23000,36000,46500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Balaraja Barat,21500,34000,44000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Balaraja Timur,24500,38500,49500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Cikande,10000,16000,20500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Cikupa,28000,44000,57000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Cilegon Barat,27000,42500,54500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Cilegon Timur,20000,31500,41000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Ciujung,3500,5500,7500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Merak,30000,47000,61000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Serang Barat,11500,18500,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,SS Walantaka,Serang Timur,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Balaraja Barat,33500,52500,67500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Balaraja Timur,36000,56500,73500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Cikande,21500,34000,44000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Cikupa,39500,62000,80500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Cilegon Barat,15500,24000,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Cilegon Timur,8500,13500,17000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Ciujung,15500,24000,31000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Merak,18500,29000,37000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,SS Walantaka,11500,18500,23500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Barat,Serang Timur,4500,7500,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Balaraja Barat,28500,45000,58000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Balaraja Timur,31500,49500,64000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Cikande,17000,27000,34500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Cikupa,35000,55000,71000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Cilegon Barat,20000,31500,40500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Cilegon Timur,13000,20500,26500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Ciujung,10500,16500,21500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Merak,23000,36000,46500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,SS Walantaka,7000,11000,14000,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
+Trans Jawa,Tangerang-Merak,KEPMEN PUPR Nomor 176/KPTS/M/2025,10 Februari 2025,tertutup,Serang Timur,Serang Barat,4500,7500,9500,https://bpjt.pu.go.id/wp-content/uploads/Tarif-Tol-TransJawa.pdf
