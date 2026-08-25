@@ -1,9 +1,9 @@
 {
-  "name": "cold-chain-router",
+  "name": "lens",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Smart Logistics — Cold Chain Router: freshness-aware route selection for perishable cargo",
+  "description": "LENS (Logistic Evaluation and Navigation System) — Smart Logistics: freshness-aware route selection for perishable cargo",
   "scripts": {
     "dev": "concurrently -n backend,frontend -c yellow,cyan \"npm:dev:backend\" \"npm:dev:frontend\"",
     "dev:backend": "node scripts/dev-backend.mjs",
