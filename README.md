@@ -236,10 +236,20 @@ GEMINI_API_KEY=
 MAPKIT_JS_TOKEN=
 ```
 
-Keduanya Wajib di isi. Tanpa diisi, fitur-fitur pada aplikasi tidak dapat dijalankan dengan maksimal:
+Keduanya opsional secara teknis, aplikasinya tetap jalan walau dikosongkan. Tapi isi
+keduanya kalau mau semua fitur tampil maksimal, karena tanpanya ada bagian yang otomatis
+turun ke versi sederhana:
+
+| Kalau kosong | Yang terjadi |
+|---|---|
+| `GEMINI_API_KEY` | Penjelasannya pakai kalimat template. Angkanya tetap sama persis. Badge di UI bakal menampilkan "tanpa LLM" |
+| `MAPKIT_JS_TOKEN` | Petanya pakai OpenStreetMap, bukan Apple Maps. Fungsinya sama saja |
 
 Gemini API key bisa diambil gratis di [Google AI Studio](https://aistudio.google.com/),
 sedangkan MapKit JS token dari portal Apple Developer.
+
+> **Jangan pernah commit file `.env`.** Memang sudah masuk `.gitignore`, tapi biasakan
+> cek `git status` sebelum `git add`, apalagi kalau kamu terbiasa pakai `git add .`
 
 <details>
 <summary><b>Catatan kalau token MapKit kamu dikunci ke domain tertentu</b></summary>
