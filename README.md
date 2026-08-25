@@ -65,6 +65,33 @@ Tiga model itu jalan berurutan dan saling oper data lewat `route_id`. Aturan mai
 dikunci di `backend/contracts.py`. Anggap file itu kontrak antar-modul, jadi jangan
 diubah sembarangan.
 
+### Alur permintaan, langkah demi langkah
+
+Frontend memanggil backend lewat dua request terpisah, bukan satu. Urutannya tetap:
+
+1. Pengguna isi form dan klik **Hitung Rute**. Frontend kirim `POST /api/plan`.
+2. `backend/api.py` meneruskan request itu ke `pipeline.run_pipeline()`, yang menjalankan
+   M1, M2, M3 secara berurutan. Hasilnya: daftar rute lengkap dengan kesegaran, ETA, dan biaya.
+3. Frontend terima hasil itu dan langsung menampilkan kartu rute serta peta. Sampai titik ini,
+   belum ada AI yang terlibat sama sekali.
+4. Frontend kirim request kedua, `POST /api/explain`, dengan **hasil dari langkah 2** sebagai
+   isi `payload`-nya. Dua request ini wajib berurutan karena `/api/explain` butuh angka dari
+   `/api/plan` untuk dijelaskan.
+5. `backend/api.py` meneruskan payload itu ke `coldchain.explain.explain_payload()` di
+   `llm-rag/`. Fungsi ini mengambil potongan relevan dari basis pengetahuan (RAG), lalu
+   memanggil Gemini untuk merapikan kalimat lewat `llm.polish_explanations()`.
+6. Kalau Gemini gagal atau kuotanya habis, `explain_payload()` otomatis pakai kalimat
+   template. Angka yang ditampilkan tetap sama persis, cuma kalimatnya kurang halus.
+7. Frontend terima hasilnya dan menampilkan kartu Insight, lengkap dengan badge yang
+   menunjukkan apakah narasinya dari Gemini atau template.
+
+> **Catatan soal `orchestrator.py`.** Folder `llm-rag/coldchain/` juga punya
+> `orchestrator.py` dengan class `Orchestrator`, yang mengurai teks bebas lewat Gemini
+> function-calling lalu memanggil `tools.plan_trip()`. Class ini **tidak dipakai oleh web
+> app**. Endpoint `/api/explain` di `api.py` memanggil `coldchain.explain.explain_payload`
+> secara langsung, tanpa lewat `Orchestrator`. Anggap `orchestrator.py` sebagai jalur
+> eksperimental yang belum tersambung, bukan bagian dari alur di atas.
+
 ---
 
 ## Isi folder
