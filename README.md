@@ -16,8 +16,6 @@ menampilkan:
 
 Untuk sekarang fokusnya tiga komoditas dulu: ikan segar, bayam, dan kentang.
 
-Proyek ini dibuat untuk AI Innovation Challenge (AIC) COMPFEST 18, sub-tema Smart Logistics.
-
 ---
 
 ## Kenapa angkanya bisa dipercaya
@@ -247,9 +245,6 @@ turun ke versi sederhana:
 
 Gemini API key bisa diambil gratis di [Google AI Studio](https://aistudio.google.com/),
 sedangkan MapKit JS token dari portal Apple Developer.
-
-> **Jangan pernah commit file `.env`.** Memang sudah masuk `.gitignore`, tapi biasakan
-> cek `git status` sebelum `git add`, apalagi kalau kamu terbiasa pakai `git add .`
 
 <details>
 <summary><b>Catatan kalau token MapKit kamu dikunci ke domain tertentu</b></summary>
