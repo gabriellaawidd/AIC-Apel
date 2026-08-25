@@ -7,6 +7,11 @@ services:
     command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
     ports:
       - "8000:8000"
+    environment:
+      # Tanpa ini container memakai UTC, sehingga jam di log tidak cocok dengan
+      # jam dinding saat demo/perekaman. Disamakan ke WIB supaya log bisa
+      # dibaca berdampingan dengan waktu setempat.
+      TZ: Asia/Jakarta
     env_file:
       - path: ../.env
         required: false
