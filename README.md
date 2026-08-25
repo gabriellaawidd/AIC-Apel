@@ -1,43 +1,46 @@
-# LENS — Logistic Evaluation and Navigation System
+# LENS (Logistic Evaluation and Navigation System)
 
-**"Barangnya masih layak jual nggak ya, pas sampai nanti?"**
+> "Barangnya masih layak jual nggak ya, pas sampai nanti?"
 
-Itu pertanyaan yang biasanya baru kejawab setelah truk sampai — dan seringnya sudah telat.
-Aplikasi ini mencoba menjawabnya **sebelum berangkat**.
+Pertanyaan itu biasanya baru kejawab setelah truknya sampai, dan seringnya sudah telat.
+LENS mencoba menjawabnya sebelum truk berangkat.
 
-Kamu masukkan mau kirim apa, dari mana ke mana, jam berapa, pakai truk pendingin atau tidak.
-Sistem lalu membandingkan beberapa rute yang mungkin, dan untuk tiap rute menampilkan:
+Kamu tinggal isi mau kirim apa, dari mana ke mana, jam berapa, dan pakai truk pendingin
+atau tidak. Sistem lalu membandingkan beberapa pilihan rute, dan untuk tiap rute
+menampilkan:
 
-- **berapa persen kesegaran barang saat tiba** (bukan cuma "berapa jam sampai")
-- **perkiraan waktu tempuh** dalam bentuk pita optimis–normal–pesimis, bukan satu angka palsu
-- **perkiraan biaya** (tol + BBM), lengkap dengan rincian gerbang tolnya
-- **peringatan** kalau barangnya diperkirakan sudah tidak layak jual saat sampai
+- berapa persen kesegaran barang saat tiba (bukan cuma "berapa jam sampai")
+- perkiraan waktu tempuh, ditampilkan sebagai rentang optimis sampai pesimis
+- perkiraan biaya tol dan BBM, lengkap dengan rincian gerbang tolnya
+- peringatan kalau barangnya diperkirakan sudah tidak layak jual saat sampai
 
-Fokusnya tiga komoditas dulu: **ikan segar, bayam, kentang**.
+Untuk sekarang fokusnya tiga komoditas dulu: ikan segar, bayam, dan kentang.
 
-Dibuat untuk **AI Innovation Challenge (AIC) COMPFEST 18**, sub-tema *Smart Logistics*.
+Proyek ini dibuat untuk AI Innovation Challenge (AIC) COMPFEST 18, sub-tema Smart Logistics.
 
 ---
 
-## Kenapa jawabannya bisa dipercaya?
+## Kenapa angkanya bisa dipercaya
 
-Ini bagian yang penting, jadi kami tulis terus terang.
+**Angkanya bukan karangan AI.** Semua nilai (persentase kesegaran, waktu tempuh, rupiah)
+dihitung fungsi Python biasa yang bisa kamu buka dan periksa sendiri. Rumusnya dari
+literatur ilmu pangan (Ratkowsky dan Arrhenius) dan tarif tol resmi BPJT. LLM di sini
+kerjanya cuma dua: membaca kalimat dari pengguna, dan merapikan bahasa penjelasannya.
+Kalau sampai ada satu angka yang berubah gara-gara LLM, hasilnya langsung dibuang dan
+diganti versi template.
 
-**Angkanya tidak datang dari AI yang mengarang.** Semua nilai — persentase kesegaran, ETA, rupiah —
-dihitung oleh fungsi Python biasa yang bisa kamu buka dan periksa sendiri, pakai rumus dari literatur
-ilmu pangan (Ratkowsky/Arrhenius) dan tarif tol resmi BPJT. LLM di sistem ini kerjanya cuma dua:
-membaca kalimat bebas dari pengguna, dan memperhalus bahasa penjelasannya. Kalau LLM sampai
-mengubah satu angka pun, hasilnya dibuang dan diganti template.
+**Kami tidak pakai sensor IoT.** Suhu di dalam kargo itu asumsi skenario, bukan hasil
+pengukuran. Kalau pakai reefer, diasumsikan sesuai setpoint. Kalau tidak, mengikuti suhu
+udara sepanjang rute dari data prakiraan cuaca. Ini ditulis apa adanya di layar, tidak
+kami samarkan seolah-olah hasil sensor beneran.
 
-**Kami tidak memasang sensor IoT.** Suhu di dalam kargo adalah *asumsi skenario* — kalau pakai reefer,
-diasumsikan sesuai setpoint; kalau tidak, mengikuti suhu udara sepanjang rute dari prakiraan cuaca.
-Ini ditampilkan apa adanya di UI, tidak disamarkan seolah-olah hasil pengukuran.
+**Ini alat bantu keputusan, bukan sistem produksi yang sudah teruji di lapangan.**
+Anggap saja seperti simulator. Berguna buat membandingkan pilihan, tapi belum bisa
+dijadikan jaminan.
 
-**Ini alat bantu keputusan, bukan sistem produksi yang sudah tervalidasi di lapangan.**
-Anggap seperti simulator: berguna buat membandingkan pilihan, belum untuk dijadikan jaminan.
-
-Datanya 100% sekunder — OSRM (rute), Open-Meteo (cuaca), Nominatim (cari lokasi), BPJT (tarif tol),
-FAO/USDA/SNI (parameter komoditas). Tidak ada pengumpulan data primer, tidak ada model yang dilatih.
+Semua datanya sekunder: OSRM untuk rute, Open-Meteo untuk cuaca, Nominatim untuk cari
+lokasi, BPJT untuk tarif tol, lalu FAO, USDA, dan SNI untuk parameter komoditas. Tidak
+ada pengumpulan data primer, dan tidak ada model yang kami latih sendiri.
 
 ---
 
@@ -58,8 +61,9 @@ Kamu isi form  →  ┌───────────────────
                      Kartu rute + peta + insight di layar
 ```
 
-Tiga model itu jalan berurutan dan saling oper lewat `route_id`. Aturan mainnya dibekukan di
-`backend/contracts.py` — itu "kontrak" antar-modul, jangan diubah sembarangan.
+Tiga model itu jalan berurutan dan saling oper data lewat `route_id`. Aturan mainnya
+dikunci di `backend/contracts.py`. Anggap file itu kontrak antar-modul, jadi jangan
+diubah sembarangan.
 
 ---
 
@@ -67,42 +71,42 @@ Tiga model itu jalan berurutan dan saling oper lewat `route_id`. Aturan mainnya 
 
 ```
 .
-├── requirements.txt          daftar dependency Python (dipakai backend + llm-rag)
-├── .env.example              contoh isi .env — copy jadi .env, lalu isi sendiri
+├── requirements.txt          daftar dependency Python (buat backend + llm-rag)
+├── .env.example              contoh isi .env, copy jadi .env lalu isi sendiri
 │
 ├── backend/                  FastAPI + tiga model perhitungan
-│   ├── api.py                pintu masuk HTTP — semua endpoint /api/* ada di sini
+│   ├── api.py                pintu masuk HTTP, semua endpoint /api/* ada di sini
 │   ├── pipeline.py           penghubung: satu permintaan → M1 → M2 → M3 → hasil
-│   ├── contracts.py          tipe data & tanda tangan fungsi antar-modul (dibekukan)
+│   ├── contracts.py          tipe data & tanda tangan fungsi antar-modul (dikunci)
 │   │
-│   ├── routing.py            M1 — ambil rute alternatif dari OSRM, hitung pita ETA
-│   ├── temp_profile.py       M1 — susun profil suhu sepanjang rute
+│   ├── routing.py            M1: ambil rute alternatif dari OSRM, hitung rentang ETA
+│   ├── temp_profile.py       M1: susun profil suhu sepanjang rute
 │   │
-│   ├── quality.py            M2 — pintu masuk perhitungan kesegaran
-│   ├── engine.py             M2 — mesin hitung (Ratkowsky untuk ikan, Arrhenius untuk sayur)
-│   ├── models.py             M2 — parameter tiap komoditas dari literatur
+│   ├── quality.py            M2: pintu masuk perhitungan kesegaran
+│   ├── engine.py             M2: mesin hitungnya (Ratkowsky buat ikan, Arrhenius buat sayur)
+│   ├── models.py             M2: parameter tiap komoditas dari literatur
 │   │
-│   ├── cost.py               M3 — biaya BBM + tol
-│   ├── toll_table.py         M3 — pembacaan tabel tarif
-│   ├── toll_detect.py        M3 — deteksi ruas tol yang dilewati
-│   ├── optimizer.py          M3 — Pareto front + skor sesuai preferensi
+│   ├── cost.py               M3: biaya BBM + tol
+│   ├── toll_table.py         M3: pembacaan tabel tarif
+│   ├── toll_detect.py        M3: deteksi ruas tol yang dilewati
+│   ├── optimizer.py          M3: Pareto front + skor sesuai preferensi
 │   │
 │   ├── geocode.py            cari lokasi lewat Nominatim
 │   ├── locations.py          daftar kota preset (jakarta, bandung, dst.)
-│   ├── dashboard_export.py   rapikan hasil jadi bentuk siap-tampil
+│   ├── dashboard_export.py   rapikan hasil jadi bentuk siap tampil
 │   ├── data/
 │   │   └── tarif_tol_jawa.csv    858 baris tarif tol Jawa dari BPJT
 │   ├── Dockerfile
 │   └── docker-compose.yml
 │
-├── llm-rag/coldchain/        lapisan AI — dipanggil backend lewat /api/explain
+├── llm-rag/coldchain/        lapisan AI, dipanggil backend lewat /api/explain
 │   ├── orchestrator.py       urutan kerjanya: parse → pipeline → RAG → narasi
 │   ├── llm.py                sambungan ke Gemini
 │   ├── rag.py                cari potongan pengetahuan yang relevan (TF-IDF)
 │   ├── explain.py            susun penjelasan per rute
 │   ├── tools.py              fungsi yang boleh dipanggil LLM
 │   ├── config.py, state.py
-│   └── kb/                   basis pengetahuan (FAO, SNI, USDA, FSSP) — 10 berkas .md
+│   └── kb/                   basis pengetahuan dari FAO, SNI, USDA, FSSP (10 berkas .md)
 │
 └── frontend/                 React + Vite + Tailwind
     ├── src/
@@ -120,27 +124,28 @@ Tiga model itu jalan berurutan dan saling oper lewat `route_id`. Aturan mainnya 
 
 | Perlu | Keterangan |
 |---|---|
-| **Python 3.10+** | dites di 3.11 dan 3.12. Docker-nya pakai 3.11 |
-| **Node.js 18+** | cuma kalau mau menjalankan tampilan/UI-nya |
-| **Koneksi internet** | wajib — rute dari OSRM dan cuaca dari Open-Meteo diambil online |
-| Gemini API key | opsional. Tanpa ini tetap jalan, cuma narasinya pakai template |
-| MapKit JS token | opsional. Tanpa ini peta otomatis pakai OpenStreetMap |
+| Python 3.10+ | sudah dites di 3.11 dan 3.12. Docker-nya pakai 3.11 |
+| Node.js 18+ | cuma perlu kalau mau menjalankan tampilannya |
+| Koneksi internet | wajib, karena rute dan cuaca diambil online |
+| Gemini API key | opsional. Tanpa ini tetap jalan, cuma penjelasannya pakai template |
+| MapKit JS token | opsional. Tanpa ini petanya otomatis pakai OpenStreetMap |
 
-Cek Python kamu dulu:
+Cek dulu versi Python kamu:
 
 ```bash
 python3 --version
 ```
 
-Belum ada? macOS: `brew install python@3.12`. Windows: unduh dari [python.org](https://www.python.org/downloads/).
+Kalau belum ada, di macOS pakai `brew install python@3.12`, di Windows unduh dari
+[python.org](https://www.python.org/downloads/).
 
 ---
 
 ## Cara menjalankan
 
-Ada tiga jalur. Pilih salah satu — **jalur 1 paling gampang.**
+Ada tiga cara. Pilih salah satu, dan cara pertama yang paling gampang.
 
-### Jalur 1 — Sekali perintah (backend + tampilan sekaligus)
+### Cara 1: sekali perintah, backend dan tampilan langsung nyala
 
 ```bash
 cd frontend
@@ -148,25 +153,25 @@ npm install
 npm run dev
 ```
 
-Selesai. Skrip `dev-backend.mjs` otomatis bikin `.venv`, install dependency Python-nya,
-lalu menyalakan backend — kamu tidak perlu ngapa-ngapain lagi.
+Sudah, itu saja. Skrip `dev-backend.mjs` otomatis bikin `.venv`, install semua
+dependency Python-nya, lalu menyalakan backend. Kamu tidak perlu ngapa-ngapain lagi.
 
-- Tampilan: **http://localhost:5173**
-- Backend: http://127.0.0.1:8000 (sudah di-proxy, jadi tidak perlu diakses langsung)
+- Tampilan: http://localhost:5173
+- Backend: http://127.0.0.1:8000 (sudah di-proxy, jadi tidak perlu dibuka langsung)
 
-Hentikan dengan `Ctrl+C`.
+Buat berhenti, tekan `Ctrl+C`.
 
-### Jalur 2 — Backend saja, manual
+### Cara 2: backend saja, dijalankan manual
 
-Kalau cuma mau API-nya, atau ingin tahu persis apa yang terjadi.
+Cocok kalau kamu cuma butuh API-nya, atau penasaran apa yang sebenarnya terjadi.
 
-Jalankan **dari folder utama** (yang ada `requirements.txt`-nya):
+Jalankan dari folder utama, yang ada file `requirements.txt`-nya:
 
 ```bash
 python3 -m venv .venv
 ```
 
-Aktifkan:
+Lalu aktifkan:
 
 ```bash
 source .venv/bin/activate          # macOS / Linux
@@ -174,9 +179,9 @@ source .venv/bin/activate          # macOS / Linux
 .venv\Scripts\activate.bat         # Windows CMD
 ```
 
-Kalau berhasil, ada tulisan `(.venv)` di depan prompt terminalmu.
+Kalau berhasil, bakal muncul tulisan `(.venv)` di depan prompt terminalmu.
 
-Lalu install dan nyalakan:
+Sekarang install dan nyalakan:
 
 ```bash
 pip install --upgrade pip
@@ -186,72 +191,77 @@ cd backend
 uvicorn api:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-Buka **http://localhost:8000/docs** — itu dokumentasi API otomatis, bisa langsung dicoba dari browser.
+Buka http://localhost:8000/docs. Itu dokumentasi API otomatis, dan endpoint-nya bisa
+langsung dicoba dari browser.
 
-Kalau sudah selesai, keluar dari venv dengan `deactivate`.
+Kalau sudah selesai, keluar dari venv pakai `deactivate`.
 
-### Jalur 3 — Docker
+### Cara 3: Docker
 
-Tidak mau ribet urusan Python:
+Buat yang tidak mau ribet urusan Python:
 
 ```bash
 cd backend
 docker compose up --build
 ```
 
-Backend hidup di http://localhost:8000. File `.env` dari folder utama tetap kebaca.
+Backend bakal hidup di http://localhost:8000, dan file `.env` di folder utama tetap kebaca.
+
+Kalau habis mengubah isi `.env` atau kodenya, jangan pakai `docker compose restart`,
+karena itu cuma menghidupkan ulang proses lama dengan konfigurasi lama. Pakai
+`docker compose up -d --build` supaya perubahannya benar-benar kepakai.
 
 ---
 
 ## Mengisi `.env`
 
-Copy contohnya dulu:
+Copy dulu contohnya:
 
 ```bash
 cp .env.example .env
 ```
 
-Isinya dua baris:
+Isinya cuma dua baris:
 
 ```env
 GEMINI_API_KEY=
 MAPKIT_JS_TOKEN=
 ```
 
-**Keduanya boleh dikosongkan** — aplikasinya tetap jalan, cuma turun kualitasnya:
+Dua-duanya boleh dikosongkan. Aplikasinya tetap jalan, cuma ada fitur yang turun kualitasnya:
 
 | Kalau kosong | Yang terjadi |
 |---|---|
-| `GEMINI_API_KEY` | Penjelasan pakai kalimat template. Angkanya tetap sama persis. Badge di UI menampilkan "tanpa LLM" |
-| `MAPKIT_JS_TOKEN` | Peta pakai OpenStreetMap, bukan Apple Maps. Fungsinya sama saja |
+| `GEMINI_API_KEY` | Penjelasannya pakai kalimat template. Angkanya tetap sama persis. Badge di UI bakal menampilkan "tanpa LLM" |
+| `MAPKIT_JS_TOKEN` | Petanya pakai OpenStreetMap, bukan Apple Maps. Fungsinya sama saja |
 
-Ambil Gemini API key gratis di [Google AI Studio](https://aistudio.google.com/).
-MapKit JS token dari portal Apple Developer.
+Gemini API key bisa diambil gratis di [Google AI Studio](https://aistudio.google.com/),
+sedangkan MapKit JS token dari portal Apple Developer.
 
-> **Jangan pernah commit `.env`.** Sudah masuk `.gitignore`, tapi biasakan cek `git status`
-> sebelum `git add` — apalagi kalau kamu pakai `git add .`
+> **Jangan pernah commit file `.env`.** Memang sudah masuk `.gitignore`, tapi biasakan
+> cek `git status` sebelum `git add`, apalagi kalau kamu terbiasa pakai `git add .`
 
 <details>
-<summary><b>Catatan soal token MapKit yang dikunci ke domain tertentu</b></summary>
+<summary><b>Catatan kalau token MapKit kamu dikunci ke domain tertentu</b></summary>
 
-Token MapKit JS bisa dibatasi ke domain tertentu (ada klaim `origin` di dalam tokennya).
-Kalau token kamu dikunci ke, misalnya, `*.contoh.com`, membuka aplikasi lewat `localhost`
-akan ditolak Apple — dan peta otomatis pindah ke OpenStreetMap.
+Token MapKit JS bisa dibatasi cuma boleh dipakai di domain tertentu (ada klaim `origin`
+di dalam tokennya). Misalnya token kamu dikunci ke `*.contoh.com`, maka membuka aplikasi
+lewat `localhost` bakal ditolak Apple, dan petanya otomatis pindah ke OpenStreetMap.
 
-Solusinya, arahkan sebuah subdomain ke komputermu sendiri:
+Solusinya, arahkan satu subdomain ke komputermu sendiri:
 
 ```bash
 echo "127.0.0.1 dev.contoh.com" | sudo tee -a /etc/hosts
 ```
 
-lalu buka `http://dev.contoh.com:5173`. Daftarkan juga hostname-nya di `allowedHosts`
-pada `frontend/vite.config.js`.
+Lalu buka lewat `http://dev.contoh.com:5173`. Jangan lupa daftarkan juga hostname-nya
+di bagian `allowedHosts` pada `frontend/vite.config.js`.
 
-Perhatikan: token wildcard (`*.contoh.com`) cocoknya dengan **subdomain**, bukan domain
-polosnya. Jadi `dev.contoh.com` diterima, `contoh.com` ditolak.
+Satu hal yang gampang kelewat: token wildcard seperti `*.contoh.com` itu cocoknya dengan
+subdomain, bukan domain polosnya. Jadi `dev.contoh.com` diterima, tapi `contoh.com` ditolak.
 
-Buka Console browser untuk melihat alasannya — sistem sengaja mencetak sebab kegagalan
-yang sebenarnya, bukan cuma "Unauthorized".
+Kalau petanya tetap tidak muncul, buka Console browser. Sistem sengaja mencetak alasan
+kegagalan yang sebenarnya di situ, bukan cuma pesan "Unauthorized" yang tidak jelas.
 
 </details>
 
@@ -259,15 +269,15 @@ yang sebenarnya, bukan cuma "Unauthorized".
 
 ## Cek sudah jalan atau belum
 
-Backend menyediakan enam endpoint:
+Backend punya enam endpoint:
 
 | Endpoint | Gunanya |
 |---|---|
 | `GET /api/health` | cek hidup atau tidak |
 | `GET /api/meta` | daftar komoditas, kota preset, status fitur |
 | `GET /api/geocode?q=...` | cari lokasi |
-| `GET /api/mapkit-token` | token peta untuk frontend |
-| `POST /api/plan` | **inti** — hitung rute, kesegaran, biaya |
+| `GET /api/mapkit-token` | token peta buat frontend |
+| `POST /api/plan` | yang utama: hitung rute, kesegaran, dan biaya |
 | `POST /api/explain` | ubah hasil `/api/plan` jadi penjelasan |
 
 Tes cepat:
@@ -276,7 +286,8 @@ Tes cepat:
 curl http://localhost:8000/api/health
 ```
 
-Tes beneran — kirim ikan segar dari Jakarta ke Bandung, berangkat jam 8 pagi, truk biasa:
+Tes yang sebenarnya, kirim ikan segar dari Jakarta ke Bandung, berangkat jam 8 pagi,
+pakai truk biasa:
 
 ```bash
 curl -X POST http://localhost:8000/api/plan \
@@ -291,7 +302,7 @@ curl -X POST http://localhost:8000/api/plan \
   }'
 ```
 
-Butuh beberapa detik (nunggu OSRM dan Open-Meteo). Hasilnya kira-kira begini:
+Butuh beberapa detik karena harus nunggu OSRM dan Open-Meteo. Hasilnya kira-kira begini:
 
 ```
 kesegaran saat tiba : ~61%     ← mepet ambang layak jual 60%
@@ -299,16 +310,16 @@ waktu tempuh        : 4 jam 31 menit
 biaya               : Rp175.433
 ```
 
-> Angka kesegarannya **tidak akan sama persis** tiap kali dijalankan. Perhitungannya ikut
-> prakiraan suhu Open-Meteo, dan prakiraan itu diperbarui beberapa kali sehari — jadi wajar
-> kalau hari ini 61,1% lalu setengah jam kemudian jadi 60,9%. Yang stabil justru rute,
-> jarak, dan biayanya, karena tidak bergantung cuaca.
+> Angka kesegarannya tidak akan sama persis tiap kali dijalankan, karena ikut prakiraan
+> suhu Open-Meteo yang diperbarui beberapa kali sehari. Jadi wajar kalau sekarang 61,1%
+> lalu setengah jam kemudian jadi 60,9%. Yang stabil justru rute, jarak, dan biayanya,
+> karena tidak bergantung cuaca.
 
-Coba ganti `departure_time` jadi `"2026-08-25T11:00:00"` — berangkat 3 jam lebih siang,
-kesegarannya justru naik ke ~70% karena melewati jam macet pagi. Itu contoh keputusan yang
-susah ditebak tanpa alat bantu seperti ini.
+Coba ganti `departure_time` jadi `"2026-08-25T11:00:00"`. Berangkat tiga jam lebih siang,
+tapi kesegarannya malah naik ke sekitar 70% karena tidak kena macet pagi. Ini contoh
+keputusan yang susah ditebak kalau tidak ada alat bantu.
 
-Ganti `"vehicle"` jadi `"reefer"` untuk melihat efek truk pendingin (~82%).
+Ganti juga `"vehicle"` jadi `"reefer"` buat lihat efek truk pendingin, sekitar 82%.
 
 ---
 
@@ -316,26 +327,27 @@ Ganti `"vehicle"` jadi `"reefer"` untuk melihat efek truk pendingin (~82%).
 
 | Masalah | Coba ini |
 |---|---|
-| `command not found: python3` | Python belum terpasang atau belum masuk `PATH` |
+| `command not found: python3` | Python belum terpasang, atau belum masuk `PATH` |
 | `ModuleNotFoundError` | venv-nya belum aktif. Pastikan ada `(.venv)` di prompt sebelum `pip install` |
 | Port 8000 sudah dipakai | Ganti port: `uvicorn api:app --port 8001 --reload` |
-| Isi `.env` tidak kebaca | `.env` harus di folder utama, bukan di dalam `backend/` |
-| Request lama lalu gagal | Cek internet — OSRM & Open-Meteo diambil online |
-| Badge UI bilang "tanpa LLM" padahal key sudah diisi | Cek log terminal backend. Sering karena **kuota harian Gemini habis** — tier gratis dibatasi per model per hari, dan resetnya tengah malam waktu Pasifik (sekitar jam 2 siang WIB) |
-| Peta cuma kotak-kotak krem | Token MapKit tidak cocok dengan domain yang kamu pakai — lihat catatan MapKit di atas |
+| Isi `.env` tidak kebaca | `.env` harus ada di folder utama, bukan di dalam `backend/` |
+| Request lama lalu gagal | Cek koneksi internet, karena OSRM dan Open-Meteo diambil online |
+| Badge UI bilang "tanpa LLM" padahal key sudah diisi | Cek log terminal backend. Paling sering karena kuota harian Gemini habis. Tier gratis dibatasi per model per hari, dan resetnya tengah malam waktu Pasifik atau sekitar jam 2 siang WIB |
+| Peta cuma kotak-kotak krem | Token MapKit tidak cocok dengan domain yang kamu pakai. Lihat catatan MapKit di atas |
 
 ---
 
-## Yang masih jujur kami akui belum beres
+## Yang belum beres
 
-Ditulis di sini supaya tidak ada yang kaget:
+Ditulis terus terang di sini biar tidak ada yang kaget:
 
-- **Faktor macet dan cuaca di perhitungan ETA masih placeholder** — belum dikalibrasi ke data
-  lalu lintas nyata. Makanya ETA-nya sengaja ditampilkan sebagai *pita*, bukan satu angka pasti.
-- **Biaya truk reefer belum dimodelkan.** `cost.py` belum membedakan reefer dan non-reefer,
-  jadi biaya tambahan pendinginan belum masuk hitungan. Manfaat kesegarannya nyata; tambahan
-  biayanya belum.
-- **Angkanya bisa bergeser bahkan dalam hitungan jam**, karena prakiraan cuaca Open-Meteo
-  diperbarui berkali-kali sehari. Kalau kamu butuh angka yang bisa dikutip di dokumen,
-  catat juga tanggal dan jam pengambilannya.
+- **Faktor macet dan cuaca di perhitungan ETA masih placeholder.** Belum dikalibrasi ke
+  data lalu lintas beneran. Makanya ETA-nya sengaja ditampilkan sebagai rentang, bukan
+  satu angka pasti.
+- **Biaya truk reefer belum dihitung.** File `cost.py` belum membedakan reefer dan
+  non-reefer, jadi biaya tambahan buat pendinginan belum masuk. Manfaat kesegarannya
+  sudah nyata, tapi tambahan biayanya belum.
+- **Angkanya bisa bergeser dalam hitungan jam**, karena prakiraan cuaca Open-Meteo
+  diperbarui berkali-kali sehari. Kalau kamu butuh angka buat dikutip di dokumen, catat
+  sekalian tanggal dan jam pengambilannya.
 - **Belum ada uji otomatis** di repo ini.
