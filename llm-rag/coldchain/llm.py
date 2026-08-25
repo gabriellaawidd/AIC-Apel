@@ -149,13 +149,26 @@ POLISH_SYSTEM = (
 )
 
 
-def _extract_json(text: str) -> str:
+def _extract_json(text: str) -> dict:
+    """Ambil objek JSON PERTAMA yang valid dari `text`, abaikan sisanya.
+
+    Gemini kadang menambahkan catatan setelah JSON meski `response_mime_type`
+    diminta JSON. Versi lama mengambil substring dari `{` pertama sampai `}`
+    PALING AKHIR di seluruh teks — kalau catatan tambahan itu kebetulan
+    mengandung tanda kurung kurawal, potongannya jadi rusak dan gagal parse
+    ("Extra data"), padahal JSON asli dari model sebenarnya valid.
+    `raw_decode` berhenti begitu satu objek JSON lengkap terbentuk, jadi
+    kebal terhadap apa pun yang menyusul setelahnya.
+    """
     s = (text or "").strip()
     if s.startswith("```"):
         s = re.sub(r"^```(?:json)?\s*", "", s)
         s = re.sub(r"\s*```$", "", s).strip()
-    i, j = s.find("{"), s.rfind("}")
-    return s[i:j + 1] if (i != -1 and j != -1 and j > i) else (s or "{}")
+    i = s.find("{")
+    if i == -1:
+        return {}
+    obj, _ = json.JSONDecoder().raw_decode(s[i:])
+    return obj
 
 
 def polish_explanations(routes, payload):
@@ -184,7 +197,7 @@ def polish_explanations(routes, payload):
                 response_mime_type="application/json",
             ),
         )
-        data = json.loads(_extract_json(resp.text))
+        data = _extract_json(resp.text)
     except Exception as e:
         print(f"[llm] polish fallback ({e})")
         return None
